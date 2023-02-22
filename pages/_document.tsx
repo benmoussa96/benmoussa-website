@@ -11,8 +11,8 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
-        <meta name="title" content="DCNTRLZD" />
-        <meta name="description" content="DCNTRLZD - Building The Decentralized Future" />
+        <meta name="title" content="benMoussa" />
+        <meta name="description" content="Ben Moussa - Building The Decentralized Future" />
         <meta name="theme-color" content="#741ff5" />
         <link
           rel="preload"
