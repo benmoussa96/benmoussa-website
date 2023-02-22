@@ -174,50 +174,6 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="uk-panel uk-text-center">
-                <h2 className="uk-h5 uk-h3@s uk-h2@l uk-margin-remove">Connect your wallet</h2>
-                <div
-                  className="uk-grid uk-grid-xsmall uk-grid-small@m uk-child-width-1-2@m uk-margin-medium-top uk-margin-large-top@m"
-                  data-uk-grid=""
-                >
-                  <div>
-                    <div className="uk-panel uk-card uk-card-small uk-card-medium@m uk-card-border uk-radius-medium uk-radius-large@m uk-box-shadow-hover-small hover:uk-border-primary">
-                      <a href="#metamask" className="uk-position-cover"></a>
-                      <img src="../assets/images/icon-metamask.svg" alt="metamask" />
-                      <h4 className="uk-text-bold uk-h5@m uk-margin-small-top uk-margin-medium-top@m">
-                        Metamask
-                      </h4>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="uk-panel uk-card uk-card-small uk-card-medium@m uk-card-border uk-radius-medium uk-radius-large@m uk-box-shadow-hover-small hover:uk-border-primary">
-                      <a href="#bitgo" className="uk-position-cover"></a>
-                      <img src="../assets/images/icon-bitgo.svg" alt="bitgo" />
-                      <h4 className="uk-text-bold uk-h5@m uk-margin-small-top uk-margin-medium-top@m">
-                        BitGo
-                      </h4>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="uk-panel uk-card uk-card-small uk-card-medium@m uk-card-border uk-radius-medium uk-radius-large@m uk-box-shadow-hover-small hover:uk-border-primary">
-                      <a href="#trustwallet" className="uk-position-cover"></a>
-                      <img src="../assets/images/icon-trustwallet.svg" alt="trustwallet" />
-                      <h4 className="uk-text-bold uk-h5@m uk-margin-small-top uk-margin-medium-top@m">
-                        Trust Wallet
-                      </h4>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="uk-panel uk-card uk-card-small uk-card-medium@m uk-card-border uk-radius-medium uk-radius-large@m uk-box-shadow-hover-small hover:uk-border-primary">
-                      <a href="#coinbase" className="uk-position-cover"></a>
-                      <img src="../assets/images/icon-coinbase.svg" alt="coinbase" />
-                      <h4 className="uk-text-bold uk-h5@m uk-margin-small-top uk-margin-medium-top@m">
-                        Coinbase
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
