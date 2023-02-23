@@ -2,30 +2,30 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="uni_contact" className="uk-modal-full" data-uk-modal>
+    <div id="uni_contact" className="uk-modal-full" data-uk-modal="">
       <div className="uk-modal-dialog">
         <div className="uk-position-top uk-position-z-index-negative" data-uk-height-viewport="">
           <div
             className="uk-position-cover uk-background-cover uk-opacity-10 dark:uk-hidden"
             data-src="../assets/images/gradient-01.png"
-            data-uk-img
+            data-uk-img=""
           ></div>
           <div
             className="uk-position-cover uk-background-cover uk-opacity-20 uk-hidden dark:uk-visible"
             data-src="../assets/images/gradient-01.png"
-            data-uk-img
+            data-uk-img=""
           ></div>
         </div>
         <button
           className="uk-modal-close-full uk-close-large uk-position-small"
           type="button"
-          data-uk-close
+          data-uk-close=""
         ></button>
         <div className="uk-container">
           <div
             className="uk-grid uk-flex-center uk-flex-middle uk-section"
-            data-uk-grid
-            data-uk-height-viewport
+            data-uk-grid=""
+            data-uk-height-viewport=""
           >
             <div>
               <header className="uni-page-header">
@@ -35,13 +35,13 @@ const Contact = () => {
               </header>
               <div className="uk-margin-top uk-margin-large-top@m">
                 <div className="uk-container uk-container-xsmall">
-                  <div className="uk-grid uk-child-width-1-1" data-uk-grid>
+                  <div className="uk-grid uk-child-width-1-1" data-uk-grid="">
                     <div>
                       <div className="uk-card uk-card-small uk-card-large@m uk-card-default uk-card-border uk-radius-medium uk-radius-large@m dark:uk-background-white-5">
                         <form
                           action="?"
                           className="uk-grid uk-grid-xsmall uk-child-width-1-1"
-                          data-uk-grid
+                          data-uk-grid=""
                         >
                           <div className="uk-width-1-2@m">
                             <div className="uk-form-controls">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -29,12 +30,12 @@ const Hero = () => {
         <div
           className="uk-position-cover uk-background-cover uk-opacity-10 dark:uk-hidden"
           data-src="../assets/images/gradient-01.png"
-          data-uk-img
+          data-uk-img=""
         ></div>
         <div
           className="uk-position-cover uk-background-cover uk-opacity-20 uk-hidden dark:uk-visible"
           data-src="../assets/images/gradient-01.png"
-          data-uk-img
+          data-uk-img=""
         ></div>
       </div>
       <div className="uk-panel uk-position-z-index">
@@ -42,10 +43,10 @@ const Hero = () => {
           <div className="uk-panel">
             <div
               className="uk-grid uk-grid-2xlarge uk-flex-middle uk-flex-between"
-              data-uk-grid
+              data-uk-grid=""
               data-uk-height-viewport="offset-top: true; offset-bottom: 20;"
             >
-              <div className="uk-width-6-12@m">
+              <div className="uk-width-5-12@m">
                 <div
                   className="uk-panel uk-position-z-index uk-text-center uk-text-left@m"
                   data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
@@ -78,17 +79,17 @@ const Hero = () => {
                     Boost your blockchain solutions
                   </h2>
                   <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                    Hi, i'm Ben Moussa,{" "}
+                    Hi, i'm Ben Moussa, freelance engineer,{" "}
                     <span className="uk-text-gradient">builder of decentralised software</span> for
                     the decentralised future.
                   </p>
-                  <a
-                    href="#"
+                  <Link
+                    href="/#cta"
                     className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
                   >
                     <span>We Should Chat</span>
                     <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="uk-width-6-12@m uk-flex-center">

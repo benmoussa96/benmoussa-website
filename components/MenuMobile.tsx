@@ -20,7 +20,7 @@ const MenuMobile = () => {
                   className="uk-offcanvas-close uk-button uk-button-small uk-button-icon uk-button-default uk-button-outline uk-radius-circle"
                   type="button"
                 >
-                  {/* <i className="uk-icon-small" data-feather="arrow-left" /> */}
+                  <i className="uk-icon-small" data-feather="arrow-left" />
                 </button>
               </div>
               <div>

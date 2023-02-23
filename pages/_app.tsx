@@ -27,8 +27,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Script src="/assets/js/app.js" strategy="lazyOnload" />
       <Script src="/assets/js/swiper-helper.js" strategy="lazyOnload" />
       <Script src="/assets/js/typed-helper.js" strategy="lazyOnload" />
-      {/* <Script src="/assets/js/anime-helper.js" />
-      <Script src="/assets/js/anime-helper-defined-timelines.js" strategy="lazyOnload" /> */}
+      <Script src="/assets/js/anime-helper.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/anime-helper-defined-timelines.js" strategy="lazyOnload" />
       <Script src="/assets/js/schema-toggle.js" strategy="lazyOnload" />
 
       <DarkModeToggle />

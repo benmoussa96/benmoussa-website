@@ -4,7 +4,11 @@ const AboutMe = () => {
   return (
     <div id="about_me" className="uni-about uk-section uk-section-xlarge@m uk-panel">
       <div className="uk-container">
-        <header className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-grid" data-uk-grid>
+        <header
+          className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-grid"
+          data-uk-grid
+          data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
+        >
           <div className="uk-panel uk-text-center">
             <h2 className="uk-h3 uk-h1@m">About Me</h2>
           </div>
@@ -21,7 +25,10 @@ const AboutMe = () => {
                   data-uk-grid=""
                 >
                   <div>
-                    <div className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m">
+                    <div
+                      className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m"
+                      data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
+                    >
                       <img
                         src="../assets/images/features-01.png"
                         alt="Crafter of quality software"
@@ -29,7 +36,10 @@ const AboutMe = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="uk-panel">
+                    <div
+                      className="uk-panel"
+                      data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
+                    >
                       <span className="uk-text-overline uk-text-gradient">Young Craftsman</span>
                       <h3 className="uk-h3 uk-h1@m">Crafter of quality software</h3>
                       <p className="uk-text-large@m">
@@ -70,19 +80,26 @@ const AboutMe = () => {
                   data-uk-grid=""
                 >
                   <div>
-                    <div className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m">
-                      <img src="../assets/images/features-04.png" alt="Create your own NFT" />
+                    <div
+                      className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m"
+                      data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
+                    >
+                      <img src="../assets/images/features-04.png" alt="Blockchain Expert" />
                     </div>
                   </div>
                   <div className="uk-flex-first@m">
-                    <div className="uk-panel">
+                    <div
+                      className="uk-panel"
+                      data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 400;"
+                    >
                       <span className="uk-text-overline uk-text-gradient">Tech Geek</span>
                       <h3 className="uk-h3 uk-h1@m">Blockchain Expert</h3>
                       <p className="uk-text-large@m">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to
-                        make a type specimen book.
+                        My passion for the potential of blockchain to disrupt traditional
+                        industries, combined with my experience building dApps such as DAOs,
+                        decentralized exchanges, payment systems, and smart contract platforms
+                        helped me gain an in-depth understanding of the full range of Blockchain use
+                        cases and business models.
                       </p>
                       <div
                         className="uk-grid uk-grid-large@m uk-grid-match uk-child-width-1-2@m uk-margin-medium-top uk-margin-large-top@m"
@@ -98,7 +115,7 @@ const AboutMe = () => {
                               </div>
                               <div className="uk-width-expand">
                                 <span className="uk-text-small@m">
-                                  Best paractices & design patterns.
+                                  Best paractices & design patterns
                                 </span>
                               </div>
                             </div>
@@ -114,7 +131,7 @@ const AboutMe = () => {
                               </div>
                               <div className="uk-width-expand">
                                 <span className="uk-text-small@m">
-                                  Highest standard of security principles.
+                                  Highest standard of security principles
                                 </span>
                               </div>
                             </div>

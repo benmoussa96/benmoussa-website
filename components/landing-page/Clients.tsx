@@ -15,31 +15,37 @@ const Clients = () => {
           </header>
           <div
             className="uk-grid uk-grid-xlarge@m uk-child-width-1-2 uk-child-width-expand@m uk-flex-middle uk-flex-center uk-grid uk-margin-medium-top"
-            data-uk-grid
+            data-uk-grid=""
           >
             <div>
-              <img
-                className="uk-width-xsmall"
-                src="../assets/images/clients/kayros-light.svg"
-                alt="Metamask"
-                data-uk-svg=""
-              />
+              <a href="https://www.kayros.games/" target="_blank">
+                <img
+                  className="uk-width-xsmall"
+                  src="../assets/images/clients/kayros-light.svg"
+                  alt="Metamask"
+                  data-uk-svg=""
+                />
+              </a>
             </div>
             <div>
-              <img
-                className="uk-width-xsmall"
-                src="../assets/images/clients/di-light.svg"
-                alt="BitGo"
-                data-uk-svg=""
-              />
+              <a href="https://decentralizeimpact.com/" target="_blank">
+                <img
+                  className="uk-width-xsmall"
+                  src="../assets/images/clients/di-light.svg"
+                  alt="BitGo"
+                  data-uk-svg=""
+                />
+              </a>
             </div>
             <div>
-              <img
-                className="uk-width-xsmall"
-                src="../assets/images/clients/dar-blockchain-light.svg"
-                alt="Coinbase"
-                data-uk-svg=""
-              />
+              <a href="https://darblockchain.io/" target="_blank">
+                <img
+                  className="uk-width-xsmall"
+                  src="../assets/images/clients/dar-blockchain-light.svg"
+                  alt="Coinbase"
+                  data-uk-svg=""
+                />
+              </a>
             </div>
             {/* <div>
               <img

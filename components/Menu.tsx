@@ -10,7 +10,7 @@ const Menu = () => {
         data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 0;"
       >
         <div className="uk-container">
-          <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+          <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
             <div className="uk-navbar-top">
               <div className="uk-navbar-left">
                 <Link className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove" href="/">
@@ -35,7 +35,7 @@ const Menu = () => {
                 <ul
                   className="uk-navbar-nav dark:uk-text-gray-10 uk-visible@m"
                   data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80"
-                  data-uk-navbar-bound
+                  data-uk-navbar-bound=""
                 >
                   <li>
                     <Link href="/#about_me">About Me</Link>
@@ -85,7 +85,7 @@ const Menu = () => {
                   >
                     <i className="uk-icon unicon-wallet"></i>
                   </a>
-                  <a href="#uni_mobile_menu" data-uk-toggle>
+                  <a href="#uni_mobile_menu" data-uk-toggle="">
                     <span className="uk-icon uk-icon-medium material-icons">menu</span>
                   </a>
                 </div>
