@@ -48,7 +48,7 @@ const Contact = () => {
                               <input
                                 className="uk-input uk-form-medium uk-text-bold"
                                 type="text"
-                                placeholder="Name"
+                                placeholder="Your name"
                               />
                             </div>
                           </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                               <input
                                 className="uk-input uk-form-medium uk-text-bold"
                                 type="email"
-                                placeholder="Email"
+                                placeholder="Your email"
                               />
                             </div>
                           </div>
@@ -90,11 +90,10 @@ const Contact = () => {
                       <div className="uk-card uk-card-small uk-card-large@m">
                         <div className="uk-grid uk-child-width-1-2@m" data-uk-grid="">
                           <div className="uk-panel">
-                            <h2 className="uk-h5 uk-h4@m">Other details</h2>
+                            <h2 className="uk-h5 uk-h4@m">Ben Moussa</h2>
                             <p>
-                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-                              perferendis eveniet mollitia omnis iste voluptatibus impedit quaerat
-                              modi facere est?
+                              "Great creators start with great taste. Intelligent people start with
+                              great intuition. Geniuses have both."
                             </p>
                           </div>
                           <div className="uk-panel">

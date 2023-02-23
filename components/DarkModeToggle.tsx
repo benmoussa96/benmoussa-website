@@ -3,7 +3,7 @@ import React from "react";
 const DarkModeToggle = () => {
   return (
     <div
-      className="darkmode-trigger uk-position-top-left uk-position-small uk-position-fixed uk-box-shadow-large uk-radius-circle"
+      className="darkmode-trigger uk-position-bottom-right uk-position-small uk-position-fixed uk-box-shadow-large uk-radius-circle"
       data-darkmode-toggle=""
     >
       <label className="switch">

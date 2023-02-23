@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="uk-text-muted">
-                  Built in Tunisia with ❤️
+                  Built with ❤️ in Tunisia
                   <br />© 2023 • BEN MOUSSA Ghaieth • All rights reserved
                 </p>
                 {/* <p className="uk-text-muted"></p> */}

@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <header className="uni-header">
+    <header id="uni-header" className="uni-header uk-position-top">
       <div
         className="uni-header-navbar"
         data-uk-sticky="top: 70; show-on-up: false; animation: uk-animation-slide-top"
-        data-anime="opacity:[1, 0]; translateY:[0, -24]; onview: true; delay: 0;"
+        data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 0;"
       >
         <div className="uk-container">
           <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
@@ -38,19 +38,19 @@ const Menu = () => {
                   data-uk-navbar-bound
                 >
                   <li>
-                    <a href="#about_me">About Me</a>
+                    <Link href="/#about_me">About Me</Link>
                   </li>
                   <li>
-                    <a href="#expertise">Expertise</a>
+                    <Link href="/#expertise">Expertise</Link>
                   </li>
                   <li>
-                    <a href="#work">Work</a>
+                    <Link href="/#work">Work</Link>
                   </li>
                   <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <Link href="/#testimonials">Testimonials</Link>
                   </li>
                   <li>
-                    <a href="#faq">FAQ</a>
+                    <Link href="/#faq">FAQ</Link>
                   </li>
                 </ul>
                 <div className="uk-navbar-item">

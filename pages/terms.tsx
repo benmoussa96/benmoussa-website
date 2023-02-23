@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Terms = () => {
+  useEffect(() => {
+    const header = document.getElementById("uni-header");
+    header?.classList.remove("uk-position-top");
+    return () => {
+      header?.classList.add("uk-position-top");
+    };
+  });
+
   return (
     <article className="uni-terms uk-section uk-section-large@m uk-panel uk-overflow-hidden uk-border-top">
       <div className="uk-container uk-container-xsmall">

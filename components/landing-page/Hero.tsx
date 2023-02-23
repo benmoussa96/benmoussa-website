@@ -78,14 +78,15 @@ const Hero = () => {
                     Boost your blockchain solutions
                   </h2>
                   <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                    Hi, i'm Ben Moussa, builder of decentralised software for the decentralised
-                    future.
+                    Hi, i'm Ben Moussa,{" "}
+                    <span className="uk-text-gradient">builder of decentralised software</span> for
+                    the decentralised future.
                   </p>
                   <a
                     href="#"
                     className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
                   >
-                    <span>Learn More</span>
+                    <span>We Should Chat</span>
                     <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
                   </a>
                 </div>

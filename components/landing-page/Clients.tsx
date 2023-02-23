@@ -20,33 +20,33 @@ const Clients = () => {
             <div>
               <img
                 className="uk-width-xsmall"
-                src="../assets/images/wallets/wallet-01.svg"
+                src="../assets/images/clients/kayros-light.svg"
                 alt="Metamask"
-                data-uk-svg
+                data-uk-svg=""
               />
             </div>
             <div>
               <img
                 className="uk-width-xsmall"
-                src="../assets/images/wallets/wallet-02.svg"
+                src="../assets/images/clients/di-light.svg"
                 alt="BitGo"
-                data-uk-svg
+                data-uk-svg=""
               />
             </div>
             <div>
               <img
                 className="uk-width-xsmall"
-                src="../assets/images/wallets/wallet-03.svg"
+                src="../assets/images/clients/dar-blockchain-light.svg"
                 alt="Coinbase"
-                data-uk-svg
+                data-uk-svg=""
               />
             </div>
-            <div>
+            {/* <div>
               <img
                 className="uk-width-xsmall"
                 src="../assets/images/wallets/wallet-04.svg"
                 alt="Trust Wallet"
-                data-uk-svg
+                data-uk-svg=""
               />
             </div>
             <div>
@@ -54,9 +54,9 @@ const Clients = () => {
                 className="uk-width-xsmall"
                 src="../assets/images/wallets/wallet-05.svg"
                 alt="Exodus"
-                data-uk-svg
+                data-uk-svg=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
