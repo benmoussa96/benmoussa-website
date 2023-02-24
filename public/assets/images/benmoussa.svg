@@ -54,7 +54,7 @@
             y1="38.739"
             x2="25.2541"
             y2="-27.747"
-            gradientTransform="skewX(20)  scale(0.02)"
+            gradientTransform="skewX(-30)  scale(0.02)"
         >
             <stop stop-color="#FC01FF"/>
             <stop offset="1" stop-color="#3754FB"/>

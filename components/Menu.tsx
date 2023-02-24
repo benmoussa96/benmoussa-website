@@ -13,7 +13,11 @@ const Menu = () => {
           <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
             <div className="uk-navbar-top">
               <div className="uk-navbar-left">
-                <Link className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove" href="/">
+                <Link
+                  className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
+                  href="/"
+                  data-uk-scroll
+                >
                   <img
                     className="uk-visible dark:uk-hidden"
                     width="120"
@@ -38,19 +42,29 @@ const Menu = () => {
                   data-uk-navbar-bound=""
                 >
                   <li>
-                    <Link href="/#about_me">About Me</Link>
+                    <Link href="/#about_me" data-uk-scroll>
+                      About Me
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/#expertise">Expertise</Link>
+                    <Link href="/#expertise" data-uk-scroll>
+                      Expertise
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/#work">Work</Link>
+                    <Link href="/#work" data-uk-scroll>
+                      Work
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/#testimonials">Testimonials</Link>
+                    <Link href="/#testimonials" data-uk-scroll>
+                      Testimonials
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/#faq">FAQ</Link>
+                    <Link href="/#faq" data-uk-scroll>
+                      FAQ
+                    </Link>
                   </li>
                 </ul>
                 <div className="uk-navbar-item">

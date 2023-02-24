@@ -90,10 +90,10 @@ const Contact = () => {
                       <div className="uk-card uk-card-small uk-card-large@m">
                         <div className="uk-grid uk-child-width-1-2@m" data-uk-grid="">
                           <div className="uk-panel">
-                            <h2 className="uk-h5 uk-h4@m">Ben Moussa</h2>
+                            <h2 className="uk-h5 uk-h4@m">BEN MOUSSA Ghaieth</h2>
                             <p>
-                              "Great creators start with great taste. Intelligent people start with
-                              great intuition. Geniuses have both."
+                              You only have one chance to make a first impression, let's make it an
+                              amazing one.
                             </p>
                           </div>
                           <div className="uk-panel">

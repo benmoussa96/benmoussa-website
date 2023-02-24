@@ -28,21 +28,21 @@ const Clients = () => {
               </a>
             </div>
             <div>
-              <a href="https://decentralizeimpact.com/" target="_blank">
-                <img
-                  className="uk-width-xsmall"
-                  src="../assets/images/clients/di-light.svg"
-                  alt="BitGo"
-                  data-uk-svg=""
-                />
-              </a>
-            </div>
-            <div>
               <a href="https://darblockchain.io/" target="_blank">
                 <img
                   className="uk-width-xsmall"
                   src="../assets/images/clients/dar-blockchain-light.svg"
                   alt="Coinbase"
+                  data-uk-svg=""
+                />
+              </a>
+            </div>
+            <div>
+              <a href="https://decentralizeimpact.com/" target="_blank">
+                <img
+                  className="uk-width-xsmall"
+                  src="../assets/images/clients/di-light.svg"
+                  alt="BitGo"
                   data-uk-svg=""
                 />
               </a>

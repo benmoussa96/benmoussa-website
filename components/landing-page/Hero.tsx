@@ -76,15 +76,15 @@ const Hero = () => {
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
                   />
                   <h2 className="uk-h2 uk-heading-d3@m uk-margin-small uk-margin@m">
-                    Boost your blockchain solutions
+                    Boost your blockchain applications
                   </h2>
                   <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                    Hi, i'm Ben Moussa, freelance engineer,{" "}
-                    <span className="uk-text-gradient">builder of decentralised software</span> for
+                    Hi, i'm Ben Moussa, software engineer,{" "}
+                    <span className="uk-text-gradient">builder of decentralised solutions</span> for
                     the decentralised future.
                   </p>
                   <Link
-                    href="/#cta"
+                    href="#cta"
                     className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
                   >
                     <span>We Should Chat</span>
