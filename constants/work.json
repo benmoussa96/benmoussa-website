@@ -1,23 +1,29 @@
 [
   {
+    "id": "1",
     "name": "Kayros",
-    "company": "Kayros.games",
+    "company": "KayrosGames",
+    "website": "https://www.kayros.games/",
     "icon": "icons/kayros-icon.png",
     "image1": "apps/kayros/screenshot-01.png",
     "image2": "apps/kayros/screenshot-02.png",
     "image3": "apps/kayros/screenshot-03.png"
   },
   {
+    "id": "2",
     "name": "Decentralise Impact",
     "company": "DarBlockchain",
+    "website": "https://darblockchain.io/",
     "icon": "icons/dar-blockchain-icon.png",
     "image1": "apps/di/screenshot-04.png",
     "image2": "apps/di/screenshot-05.png",
     "image3": "apps/di/screenshot-03.png"
   },
   {
+    "id": "3",
     "name": "Helium",
     "company": "WeCraft",
+    "website": "https://wecraft.tn/",
     "icon": "icons/wecraft-icon.png",
     "image1": "apps/helium/Screenshot-01.png",
     "image2": "apps/helium/Screenshot-02.png",

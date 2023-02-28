@@ -1,6 +1,7 @@
 import React from "react";
 
-import { work } from "../../constants";
+import { work } from "@/constants";
+import Link from "next/link";
 
 const Work = () => {
   const imagesPath = "../assets/images/clients/";
@@ -27,10 +28,10 @@ const Work = () => {
           <div
             className="uk-grid uk-grid-small@m uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m"
             data-uk-grid=""
-            data-anime="targets: > * > *; opacity:[0, 1]; translateY:[24, 0]; onview: -400; delay: anime.stagger(100);"
+            data-anime="targets: > * > *; opacity:[0, 1]; translateY:[48, 0]; onview: -400; delay: anime.stagger(200);"
           >
             {work.map((project) => (
-              <div>
+              <div key={project.id}>
                 <div className="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90">
                   <div className="uk-panel">
                     <div
@@ -55,7 +56,13 @@ const Work = () => {
                             {project.name}
                           </a>
                         </h5>
-                        <span className="uk-text-small">@{project.company}</span>
+                        <a
+                          href={project.website}
+                          target="_blank"
+                          style={{ textDecoration: "none" }}
+                        >
+                          <span className="uk-text-small">@{project.company}</span>
+                        </a>
                       </div>
                     </div>
                     <div className="uk-panel uk-margin-medium-top">

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Connect your wallet",
+    "job": "Developer",
+    "description": "Use Trust Wallet, Metamask or any wallet to connect to the app.",
+    "image": "icon-01.png"
+  },
+  {
+    "id": "2",
+    "name": "Select your quantity",
+    "job": "Developer",
+    "description": "Upload your NFTs and set a title, description and price.",
+    "image": "icon-02.png"
+  },
+  {
+    "id": "3",
+    "name": "Confirm transaction",
+    "job": "Developer",
+    "description": "Earn ETH and BIT for all your NFTs that you sell on our marketplace.",
+    "image": "icon-03.png"
+  },
+  {
+    "id": "4",
+    "name": "Receive your NFTs",
+    "job": "Developer",
+    "description": "Latin professor at Hampden-Sydney College in Virginia.",
+    "image": "icon-04.png"
+  }
+]

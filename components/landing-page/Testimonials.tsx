@@ -1,6 +1,10 @@
 import React from "react";
 
+import { testimonials } from "@/constants";
+
 const Testimonials = () => {
+  const imagesPath = "../assets/images/";
+
   return (
     <div id="testimonials" className="uni-minting uk-section uk-section-xlarge@m uk-panel">
       <div className="uk-container uk-container-small">
@@ -43,76 +47,21 @@ const Testimonials = () => {
             data-uk-grid=""
             data-anime="targets: > *; opacity:[0, 1]; translateY:[24, 0]; onview: -250; delay: anime.stagger(100);"
           >
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
-                  <div className="uk-width-1-3 uk-width-1-4@m">
-                    <img src="../assets/images/icon-01.png" alt="Icon" />
-                  </div>
-                  <div className="uk-panel uk-width-expand">
-                    <h3 className="uk-h5 uk-h4@m">Connect your wallet</h3>
-                    <p>Use Trust Wallet, Metamask or any wallet to connect to the app.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
-                  <div className="uk-width-1-3 uk-width-1-4@m">
-                    <img src="../assets/images/icon-02.png" alt="Icon" />
-                    <div
-                      hidden
-                      className="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
-                    >
-                      <i className="uk-icon-medium uk-icon-medium@m unicon-select-window"></i>
+            {testimonials.map((testimonial) => (
+              <div key={testimonial.id}>
+                <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
+                  <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
+                    <div className="uk-width-1-3 uk-width-1-4@m">
+                      <img src={imagesPath + testimonial.image} alt="Icon" />
+                    </div>
+                    <div className="uk-panel uk-width-expand">
+                      <h3 className="uk-h5 uk-h4@m">{testimonial.name}</h3>
+                      <p>{testimonial.description}</p>
                     </div>
                   </div>
-                  <div className="uk-panel uk-width-expand">
-                    <h3 className="uk-h5 uk-h4@m">Select your quantity</h3>
-                    <p>Upload your NFTs and set a title, description and price.</p>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
-                  <div className="uk-width-1-3 uk-width-1-4@m">
-                    <img src="../assets/images/icon-03.png" alt="Icon" />
-                    <div
-                      hidden
-                      className="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
-                    >
-                      <i className="uk-icon-medium uk-icon-medium@m unicon-select-window"></i>
-                    </div>
-                  </div>
-                  <div className="uk-panel uk-width-expand">
-                    <h3 className="uk-h5 uk-h4@m">Confirm transaction</h3>
-                    <p>Earn ETH and BIT for all your NFTs that you sell on our marketplace.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
-                  <div className="uk-width-1-3 uk-width-1-4@m">
-                    <img src="../assets/images/icon-04.png" alt="Icon" />
-                    <div
-                      hidden
-                      className="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
-                    >
-                      <i className="uk-icon-medium uk-icon-medium@m unicon-select-window"></i>
-                    </div>
-                  </div>
-                  <div className="uk-panel uk-width-expand">
-                    <h3 className="uk-h5 uk-h4@m">Receive your NFTs</h3>
-                    <p>Latin professor at Hampden-Sydney College in Virginia.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
