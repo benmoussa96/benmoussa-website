@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category": "Consultation",
+    "prices": [
+      {
+        "id": "1",
+        "tag": "Arrange a call",
+        "period": "Hourly",
+        "description": "Suitable for you if you require my expertise on a short-term basis or need advice and guidance.",
+        "price": "50/Hour",
+        "highlight": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Project",
+    "prices": [
+      {
+        "id": "1",
+        "tag": "Basic",
+        "period": "Daily",
+        "description": "This package is perfect for you if you have a project or task that can be completed within a few days or weeks.",
+        "price": "300/Day",
+        "highlight": false
+      },
+      {
+        "id": "2",
+        "tag": "Save 25%",
+        "period": "Monthly",
+        "description": "This package is suitable for clients who have ongoing, extensive projects that require commitment over an extended period.",
+        "price": "5,500/Month",
+        "highlight": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Custom",
+    "prices": [
+      {
+        "id": "1",
+        "tag": "Best Proposition",
+        "period": "Long Term",
+        "description": "This package allows you to negotiate and tailor the services and pricing based on your specific and unique needs.",
+        "price": "Custom",
+        "highlight": true
+      }
+    ]
+  }
+]

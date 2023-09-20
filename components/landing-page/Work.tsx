@@ -127,7 +127,7 @@ const Work = () => {
               href="#view_in_opensea"
               className="uk-button uk-button-small uk-button-large@m uk-button-gradient"
             >
-              <span>View more</span>
+              <span>More projects</span>
               <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
             </a>
           </div>

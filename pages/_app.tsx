@@ -42,18 +42,16 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <Footer />
 
-      {/*
-        <Script defer src="/assets/js/jquery.min.js" />
-        <Script defer src="/assets/js/swiper-bundle.min.js" />
-        <Script defer src="/assets/js/feather.min.js" />
-        <Script defer src="/assets/js/typed.min.js" />
-        <Script defer src="/assets/js/anime.min.js" />
-        <Script defer src="/assets/js/app.js" />
-        <Script defer src="/assets/js/swiper-helper.js" />
-        <Script defer src="/assets/js/typed-helper.js" />
-        <Script defer src="/assets/js/anime-helper.js" />
-        <Script defer src="/assets/js/anime-helper-defined-timelines.js" />
-      */}
+      {/* <Script defer src="/assets/js/jquery.min.js" />
+      <Script defer src="/assets/js/swiper-bundle.min.js" />
+      <Script defer src="/assets/js/feather.min.js" />
+      <Script defer src="/assets/js/typed.min.js" />
+      <Script defer src="/assets/js/anime.min.js" />
+      <Script defer src="/assets/js/app.js" />
+      <Script defer src="/assets/js/swiper-helper.js" />
+      <Script defer src="/assets/js/typed-helper.js" />
+      <Script defer src="/assets/js/anime-helper.js" />
+      <Script defer src="/assets/js/anime-helper-defined-timelines.js" /> */}
     </>
   );
 }

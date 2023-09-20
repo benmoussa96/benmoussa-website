@@ -22,21 +22,21 @@ const Testimonials = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;"
         >
           <img
-            className="uk-position-top-left uk-text-secondary"
+            className="uk-position-top-left uk-text-secondary uni-animation-bounce"
             width="16"
             src="../assets/images/objects/circle-01.png"
             alt="Object"
             style={{ top: "-16%", left: "8%" }}
           />
           <img
-            className="uk-position-bottom-right uk-text-primary"
+            className="uk-position-bottom-right uk-text-primary uni-animation-bounce"
             width="24"
             src="../assets/images/objects/circle-02.png"
             alt="Object"
             style={{ bottom: "16%", right: "-8%" }}
           />
           <img
-            className="uk-position-bottom-left uk-text-muted"
+            className="uk-position-bottom-left uk-text-muted uni-animation-bounce"
             width="28"
             src="../assets/images/objects/x.png"
             alt="Object"

@@ -21,6 +21,7 @@ $config: (
         "Noto Color Emoji",
       ),
       "secondary": (
+        "Exo",
         "Power Grotesk",
         "Space Grotesk",
         -apple-system,
@@ -37,6 +38,7 @@ $config: (
         "Noto Color Emoji",
       ),
       "display": (
+        "Exo",
         "Power Grotesk",
         "Space Grotesk",
         -apple-system,
@@ -66,6 +68,8 @@ $config: (
   "gradient": (
     "first": #2600fc,
     "second": #ff00ea,
+    // "first": #6d6e71,
+    // "second": #bcbec0,
     "angle": 25deg,
   ),
   "color": (
@@ -397,7 +401,7 @@ $config: (
     ),
     //"border": (
     //    "radius": 56px,
-    //),,,,,,,,,,,,,
+    //),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
   ),
   "tab": (
     "font": (

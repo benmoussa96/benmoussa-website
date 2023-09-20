@@ -7,28 +7,28 @@ const Footer = () => {
       <div className="uk-container">
         <div className="uk-panel">
           <img
-            className="uk-position-top-left"
+            className="uk-position-top-left uni-animation-bounce"
             width="32"
             src="../assets/images/objects/ethereum-01.png"
             alt="object"
             style={{ top: "32%", left: "16%" }}
           />
           <img
-            className="uk-position-top-right"
+            className="uk-position-top-right uni-animation-bounce"
             width="16"
             src="../assets/images/objects/x.png"
             alt="object"
             style={{ top: "8%", right: "16%" }}
           />
           <img
-            className="uk-position-bottom-right"
+            className="uk-position-bottom-right uni-animation-bounce"
             width="16"
             src="../assets/images/objects/circle-01.png"
             alt="object"
             style={{ bottom: "24%", right: "40%" }}
           />
           <img
-            className="uk-position-bottom-left"
+            className="uk-position-bottom-left uni-animation-bounce"
             width="24"
             src="../assets/images/objects/circle-03.png"
             alt="object"
@@ -38,36 +38,59 @@ const Footer = () => {
             <div className="uk-width-xlarge@m">
               <div className="uk-panel">
                 <a href="#" className="uk-logo" data-uk-scroll>
-                  <img width="300" src="../assets/images/benmoussa.svg" alt="benMoussa" />
+                  <img
+                    className="uk-hidden dark:uk-visible"
+                    width="70"
+                    src="../assets/images/light-medium-2.png"
+                    alt="benMoussa"
+                  />
+                  <img
+                    className="uk-visible dark:uk-hidden"
+                    width="70"
+                    src="../assets/images/dark-medium-2.png"
+                    alt="benMoussa"
+                  />
                 </a>
-                <p className="uk-text-xlarge@m uk-margin-medium-top@m">
+                <p className="uk-text-xlarge@m uk-margin-small-top@m">
                   Great creators start with great taste. <br />
                   Intelligent people start with great intuition. <br />
                   Geniuses have both.
                 </p>
                 <ul className="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-40 uk-margin-top uk-margin-medium-top@m">
                   <li>
-                    <a href="https://www.linkedin.com/in/ghaiethbenmoussa/" target="_blank">
+                    <a
+                      aria-label="linkedin"
+                      href="https://www.linkedin.com/in/ghaiethbenmoussa/"
+                      target="_blank"
+                    >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-linkedin"></span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/benmoussa96" target="_blank">
+                    <a aria-label="github" href="https://github.com/benmoussa96" target="_blank">
                       <span className="uk-icon uk-icon-medium@m unicon-logo-github"></span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/ben_mousssa/" target="_blank">
+                    <a
+                      aria-label="instagram"
+                      href="https://www.instagram.com/thechaingenius/"
+                      target="_blank"
+                    >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-instagram"></span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://medium.com/@ghaiethbenemoussa" target="_blank">
+                    <a aria-label="medium" href="https://thechaingenius.medium.com" target="_blank">
                       <span className="uk-icon uk-icon-medium@m unicon-logo-medium"></span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://discordapp.com/users/1069635708140142592" target="_blank">
+                    <a
+                      aria-label="discord"
+                      href="https://discordapp.com/users/1069635708140142592"
+                      target="_blank"
+                    >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-discord"></span>
                     </a>
                   </li>
@@ -98,8 +121,9 @@ const Footer = () => {
               </div>
               <div className="uk-flex-first@m uk-flex-center">
                 <p className="uk-text-muted">
-                  Built with ❤️ in Tunisia
-                  <br />© 2023 • BEN MOUSSA Ghaieth • All rights reserved
+                  Built with ❤️ by The Chain Genius©
+                  <br />
+                  2023 • All rights reserved
                 </p>
               </div>
             </div>

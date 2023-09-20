@@ -12,7 +12,7 @@ const Menu = () => {
         <div className="uk-container">
           <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
             <div className="uk-navbar-top">
-              <div className="uk-navbar-left">
+              <div className="uk-navbar-left" style={{ width: "165px" }}>
                 <Link
                   className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
                   href="/"
@@ -21,15 +21,15 @@ const Menu = () => {
                   <img
                     className="uk-visible dark:uk-hidden"
                     width="120"
-                    src="../assets/images/benmoussa-light.svg"
-                    alt="benMoussa"
+                    src="../assets/images/dark-large.png"
+                    alt="The Chain Genius"
                     loading="lazy"
                   />
                   <img
                     className="uk-hidden dark:uk-visible"
                     width="120"
-                    src="../assets/images/benmoussa-dark.svg"
-                    alt="benMoussa"
+                    src="../assets/images/light-large.png"
+                    alt="The Chain Genius"
                     loading="lazy"
                   />
                 </Link>
@@ -53,19 +53,14 @@ const Menu = () => {
                   </li>
                   <li>
                     <Link href="/#work" data-uk-scroll>
-                      Work
+                      Previous Work
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/#testimonials" data-uk-scroll>
                       Testimonials
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="/#faq" data-uk-scroll>
-                      FAQ
-                    </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="uk-navbar-item">
                   <ul className="uk-subnav uk-subnav-small uk-visible@m">

@@ -90,79 +90,88 @@ const Contact = () => {
                       <div className="uk-card uk-card-small uk-card-large@m">
                         <div className="uk-grid uk-child-width-1-2@m" data-uk-grid="">
                           <div className="uk-panel">
-                            <h2 className="uk-h5 uk-h4@m">BEN MOUSSA Ghaieth</h2>
+                            <img
+                              className="uk-hidden dark:uk-visible"
+                              width="195"
+                              src="../assets/images/light-large.png"
+                              alt="benMoussa"
+                            />
+                            <img
+                              className="uk-visible dark:uk-hidden"
+                              width="195"
+                              src="../assets/images/dark-large.png"
+                              alt="benMoussa"
+                            />
+
                             <p>
-                              You only have one chance to make a first impression, let's make it an
+                              We only have one chance to make a first impression, let's make it an
                               amazing one.
                             </p>
                           </div>
                           <div className="uk-panel">
                             <ul className="uk-list">
                               <li>
+                                <h2 className="uk-h5 uk-h4@m">Ghaieth BEN MOUSSA</h2>
+                              </li>
+                              <li>
                                 <a href="tel:0021696314176" className="uk-link-reset">
-                                  +216 96 314 176
+                                  +1 (505) 302 1977
                                 </a>
                               </li>
                               <li>
-                                <a href="mailto:ghaiethbmoussa@gmail.com" className="uk-link-reset">
-                                  ghaiethbmoussa@gmail.com
+                                <a
+                                  href="mailto:benmoussa@thechaingenius.com"
+                                  className="uk-link-reset"
+                                >
+                                  benmoussa@thechaingenius.com
                                 </a>
                               </li>
-                              <li>Rue Lac Malaren, Les Berges du Lac, Tunis, Tunisia</li>
+                              <li>2105 Vista Oeste NW, Suite E #2091 Albuquerque, NM 87120</li>
                             </ul>
                             <ul className="uk-subnav uk-subnav-small uk-margin-top uk-text-gray-70 dark:uk-text-gray-40">
                               <li>
                                 <a
-                                  aria-label="twitter"
+                                  aria-label="linkedin"
                                   href="https://www.linkedin.com/in/ghaiethbenmoussa/"
                                   target="_blank"
                                 >
-                                  <i className="uk-icon-small brand-linkedin"></i>
+                                  <i className="uk-icon uk-icon-small unicon-logo-linkedin"></i>
                                 </a>
                               </li>
                               <li>
                                 <a
-                                  aria-label="facebook"
+                                  aria-label="github"
                                   href="https://github.com/benmoussa96"
                                   target="_blank"
                                 >
-                                  <i className="uk-icon-small brand-github-circle"></i>
+                                  <i className="uk-icon uk-icon-small unicon-logo-github"></i>
                                 </a>
                               </li>
                               <li>
                                 <a
-                                  aria-label="snapchat"
-                                  href="https://www.instagram.com/ben_mousssa/"
+                                  aria-label="instagram"
+                                  href="https://www.instagram.com/thechaingenius/"
                                   target="_blank"
                                 >
-                                  <i className="uk-icon-small brand-instagram"></i>
+                                  <i className="uk-icon uk-icon-small unicon-logo-instagram"></i>
                                 </a>
                               </li>
                               <li>
                                 <a
-                                  aria-label="youtube-play"
-                                  href="https://medium.com/@ghaiethbenemoussa"
+                                  aria-label="medium"
+                                  href="https://thechaingenius.medium.com"
                                   target="_blank"
                                 >
-                                  <i className="uk-icon-small unicon-logo-medium"></i>
+                                  <i className="uk-icon uk-icon-small unicon-logo-medium"></i>
                                 </a>
                               </li>
                               <li>
                                 <a
-                                  aria-label="reddit-alien"
+                                  aria-label="discord"
                                   href="https://discordapp.com/users/1069635708140142592"
                                   target="_blank"
                                 >
-                                  <i className="uk-icon-small unicon-logo-discord"></i>
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  aria-label="quora"
-                                  href="https://soundcloud.com/bene-land"
-                                  target="_blank"
-                                >
-                                  <i className="uk-icon-small brand-soundcloud"></i>
+                                  <i className="uk-icon uk-icon-small unicon-logo-discord"></i>
                                 </a>
                               </li>
                             </ul>

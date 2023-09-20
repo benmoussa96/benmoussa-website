@@ -10,7 +10,7 @@ const Clients = () => {
         <div className="uk-panel uk-text-center dark:uk-text-white">
           <header className="uk-panel uk-flex-center uk-flex-middle uk-text-center">
             <span className="uk-text-overline uk-text-bold uk-text-muted">
-              Trusted by amazing clients:
+              Trusted by some amazing clients:
             </span>
           </header>
           <div

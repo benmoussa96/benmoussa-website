@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "level": "★★★★★",
+    "name": "Blockchain",
+    "description": "With a comprehensive understanding of blockchain protocols and use cases, I leverage my expertise to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
+    "skills": ["Cryptography", "EVM, Solidity", "Ethers JS"]
+  },
+  {
+    "id": "2",
+    "level": "★★★★★",
+    "name": "Front End",
+    "description": "By seamlessly blending aesthetics and functionality, I can craft visually stunning and highly responsive websites with pixel-perfect layouts and intuitive interfaces that leave a lasting impression on users.",
+    "skills": ["React JS", "Redux", "UI/UX"]
+  },
+  {
+    "id": "3",
+    "level": "★★★★☆",
+    "name": "Back End",
+    "description": "My mastery of server-side architecture patterns allows me to create robust, efficient, and scalable back-end systems and flawlessly integrate them with front-end systems.",
+    "skills": ["TypeScript", "Node JS", "Docker"]
+  },
+  {
+    "id": "4",
+    "level": "★★☆☆☆",
+    "name": "Project Management",
+    "description": "Thanks to my strong technical background and results driven approach, I am excellent in planning and executing complex projects while proactively managing risks.",
+    "skills": ["Organization", "Communication", "Planning & exection"]
+  }
+]

@@ -10,7 +10,9 @@ const AboutMe = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
         >
           <div className="uk-panel uk-text-center">
-            <h2 className="uk-h3 uk-h1@m">About Me</h2>
+            <h2 className="uk-h3 uk-h2@s uk-heading-d2@m uk-text-uppercase">
+              About <span className="uk-text-gradient">me</span>
+            </h2>
           </div>
         </header>
         <div className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
@@ -63,7 +65,7 @@ const AboutMe = () => {
                         </div>
                         <div>
                           <div className="uk-panel">
-                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">600k+</h5>
+                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">300k+</h5>
                             <span className="uk-text-small@m">Lines of Code Delivered</span>
                           </div>
                         </div>
@@ -110,6 +112,22 @@ const AboutMe = () => {
                             <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
+                                  <i className="uk-icon-small uk-icon-medium@m unicon-wikis uk-text-white"></i>
+                                </div>
+                              </div>
+                              <div className="uk-width-expand">
+                                <span className="uk-text-small@m">
+                                  Decentralization & self-custody
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="uk-panel">
+                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                              <div>
+                                <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
                                   <i className="uk-icon-small uk-icon-medium@m unicon-code uk-text-white"></i>
                                 </div>
                               </div>
@@ -126,13 +144,27 @@ const AboutMe = () => {
                             <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
-                                  <i className="uk-icon-small uk-icon-medium@m unicon-locked uk-text-white"></i>
+                                  <i className="uk-icon-small uk-icon-medium@m unicon-security uk-text-white"></i>
                                 </div>
                               </div>
                               <div className="uk-width-expand">
                                 <span className="uk-text-small@m">
                                   Highest standard of security principles
                                 </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="uk-panel">
+                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                              <div>
+                                <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
+                                  <i className="uk-icon-small uk-icon-medium@m unicon-money uk-text-white"></i>
+                                </div>
+                              </div>
+                              <div className="uk-width-expand">
+                                <span className="uk-text-small@m">Optimization of gas costs</span>
                               </div>
                             </div>
                           </div>

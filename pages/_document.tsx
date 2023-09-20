@@ -16,6 +16,11 @@ export default function Document() {
         <meta name="theme-color" content="#741ff5" />
         <link
           rel="preload"
+          href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
+          as="style"
+        />
+        <link
+          rel="preload"
           href="/assets/fonts/brand-icons/brand-icons.woff2"
           as="font"
           type="font/woff2"
@@ -27,11 +32,6 @@ export default function Document() {
           as="font"
           type="font/woff"
           crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
-          as="style"
         />
         <link
           rel="preload"

@@ -8,7 +8,8 @@ import AboutMe from "@/components/landing-page/AboutMe";
 import CallToAction from "@/components/landing-page/CallToAction";
 import Expertise from "@/components/landing-page/Expertise";
 import Work from "@/components/landing-page/Work";
-import Testimonials from "@/components/landing-page/Testimonials";
+import Pricing from "@/components/landing-page/Pricing";
+import MyValues from "@/components/landing-page/MyValues";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Numbers /> */}
 
       <AboutMe />
+      <MyValues />
       <Divider />
 
       <Expertise />
@@ -29,8 +31,8 @@ export default function Home() {
       <Work />
       <Divider />
 
-      <Testimonials />
-      <Divider />
+      {/* <Pricing />
+      <Divider /> */}
 
       <CallToAction />
       <Divider />
