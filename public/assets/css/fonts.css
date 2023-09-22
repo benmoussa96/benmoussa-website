@@ -83,3 +83,13 @@
   text-rendering: optimizeLegibility;
   font-display: swap;
 }
+
+/* Import: Dosis */
+@font-face {
+  font-family: "Dosis";
+  src: local("Dosis VariableFont"), url("../fonts/dosis/Dosis-VariableFont_wght.ttf"),
+    url("../fonts/dosis/Dosis-VariableFont_wght.ttf");
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}

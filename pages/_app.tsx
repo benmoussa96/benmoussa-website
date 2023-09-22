@@ -2,8 +2,39 @@ import { useEffect } from "react";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 
+import Swiper, { Navigation, Pagination, Scrollbar } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
+const swiper = new Swiper(".swiper", {
+  // configure Swiper to use modules
+  modules: [Navigation, Pagination, Scrollbar],
+
+  // Optional parameters
+  direction: "horizontal",
+  spaceBetween: 30,
+  effect: "coverflow",
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-pagination-progressbar",
+  },
+});
+
 import "@/public/assets/scss/theme/main.scss";
-// import "@/public/assets/scss/theme/common/init.scss";
 
 import DarkModeToggle from "@/components/DarkModeToggle";
 import Contact from "@/components/Contact";

@@ -121,7 +121,7 @@ const Hero = () => {
                   width="44"
                   src="../assets/images/objects/bitcoin-01.png"
                   alt="object"
-                  style={{ top: "70%", left: "-20%" }}
+                  // style={{ top: "10%", left: "-20%" }}
                   data-uk-svg=""
                   data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 460;"
                 />

@@ -68,66 +68,6 @@ const Expertise = () => {
                 </div>
               </div>
             ))}
-            {/* <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <span className="uk-h3 uk-h2@m uk-text-gradient">01.</span>
-                <div className="uk-panel uk-margin-top">
-                  <h3 className="uk-h5 uk-h4@m">
-                    Huge <br />
-                    collection
-                  </h3>
-                  <p className="uk-text-muted">
-                    A collection of 5,000 unique Nerkos built to go beyond the digital space that
-                    will unlock numerous benefits for our community.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5 uk-margin-large-top@m">
-                <span className="uk-h3 uk-h2@m uk-text-gradient">02.</span>
-                <div className="uk-panel uk-margin-top">
-                  <h3 className="uk-h5 uk-h4@m">
-                    High <br />
-                    quality
-                  </h3>
-                  <p className="uk-text-muted">
-                    The nerko’s collection includes dozens of rare heads, costumes, and colorways of
-                    the artist's palette. They are drawn with great care.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
-                <span className="uk-h3 uk-h2@m uk-text-gradient">03.</span>
-                <div className="uk-panel uk-margin-top">
-                  <h3 className="uk-h5 uk-h4@m">
-                    Top <br />
-                    ressource
-                  </h3>
-                  <p className="uk-text-muted">
-                    Tasty design resources made with care for each pixel. Tokens, NFTs, metaverse
-                    and game resources. Access additional drops.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5 uk-margin-large-top@m">
-                <span className="uk-h3 uk-h2@m uk-text-gradient">04.</span>
-                <div className="uk-panel uk-margin-top">
-                  <h3 className="uk-h5 uk-h4@m">
-                    Big <br />
-                    community
-                  </h3>
-                  <p className="uk-text-muted">
-                    Be part of a community of nerko owners and create user generated items. Rent,
-                    advertise, lounch stores, create items. We make it easy to discover.
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
@@ -163,34 +103,22 @@ const Expertise = () => {
     //             <div className="swiper-slide" key={exp.id}>
     //               <div>
     //                 <div className="uni-phase uk-panel uk-overflow-hidden uk-card uk-card-small uk-card-medium@m uk-radius uk-radius-xlarge@m uk-box-shadow-xsmall dark:uk-background-white-5">
-    //                   <span className="uni-phase-progress uk-text-small uk-text-bold uk-position-top-right uk-position-small uk-text-white uk-background-gradient">
-    //                     <span>0</span>%
-    //                   </span>
     //                   <div className="uk-panel">
     //                     <span className="uni-phase-count uk-text-overline uk-text-gradient">
-    //                       Phase 01
+    //                       {exp.level}
     //                     </span>
     //                     <h3 className="uni-phase-title uk-h4 uk-h3@m uk-margin-remove-bottom">
-    //                       Planning
+    //                       {exp.name}
     //                     </h3>
-    //                     <p className="uni-phase-description uk-text-large@m">
-    //                       Quality comes first. we took our time to plan out everything and build our
-    //                       production pipeline for a good quality artworks.
-    //                     </p>
+    //                     <p className="uni-phase-description uk-text-large@m">{exp.description}</p>
     //                     <hr className="uk-width-2xsmall uk-margin-medium@m" />
     //                     <ul className="uk-list uk-text-small uk-text-medium@m">
-    //                       <li className="uk-flex-middle">
-    //                         <i className="uk-icon uk-icon-xsmall uk-icon-small@m unicon-checkmark-outline uk-margin-xsmall-right uk-text-gradient"></i>{" "}
-    //                         Release website and logo
-    //                       </li>
-    //                       <li className="uk-flex-middle">
-    //                         <i className="uk-icon uk-icon-xsmall uk-icon-small@m unicon-checkmark-outline uk-margin-xsmall-right uk-text-gradient"></i>{" "}
-    //                         Grow community
-    //                       </li>
-    //                       <li className="uk-flex-middle">
-    //                         <i className="uk-icon uk-icon-xsmall uk-icon-small@m unicon-checkmark-outline uk-margin-xsmall-right uk-text-gradient"></i>{" "}
-    //                         Launch the project
-    //                       </li>
+    //                       {exp.skills.map((skill) => (
+    //                         <li key={exp.id + skill} className="uk-flex-middle">
+    //                           <i className="uk-icon uk-icon-xsmall uk-icon-small@m unicon-checkmark-outline uk-margin-xsmall-right uk-text-gradient"></i>{" "}
+    //                           {skill}
+    //                         </li>
+    //                       ))}
     //                     </ul>
     //                   </div>
     //                 </div>
