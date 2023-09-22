@@ -2,7 +2,7 @@
 const nextConfig = {
   distDir: "build",
   reactStrictMode: true,
-  basePath: "/benmoussa-website",
+  basePath: "",
 };
 
 module.exports = nextConfig;
