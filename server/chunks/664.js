@@ -65,7 +65,7 @@ var _addPathPrefix = __webpack_require__(1751);
 
 var _normalizeTrailingSlash = __webpack_require__(4979);
 
-const basePath = "/benmoussa-website" || 0;
+const basePath =  false || '';
 
 function addBasePath(path, required) {
   if (false) {}
@@ -151,7 +151,7 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports.getDomainLocale = getDomainLocale;
-const basePath = (/* unused pure expression or super */ null && ("/benmoussa-website" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ''));
 
 function getDomainLocale(path, locale, locales, domainLocales) {
   if (false) {} else {
@@ -182,7 +182,7 @@ exports.hasBasePath = hasBasePath;
 
 var _pathHasPrefix = __webpack_require__(4567);
 
-const basePath = "/benmoussa-website" || 0;
+const basePath =  false || '';
 
 function hasBasePath(path) {
   return (0, _pathHasPrefix).pathHasPrefix(path, basePath);
@@ -597,7 +597,7 @@ exports.removeBasePath = removeBasePath;
 
 var _hasBasePath = __webpack_require__(6647);
 
-const basePath = "/benmoussa-website" || 0;
+const basePath =  false || '';
 
 function removeBasePath(path) {
   if (false) {}
@@ -3022,7 +3022,7 @@ class Router {
 
     const autoExportDynamic = (0, _isDynamic).isDynamicRoute(pathname1) && self.__NEXT_DATA__.autoExport;
 
-    this.basePath = "/benmoussa-website" || 0;
+    this.basePath =  false || '';
     this.sub = subscription;
     this.clc = null;
     this._wrapApp = wrapApp; // make sure to ignore extra popState in safari on navigating

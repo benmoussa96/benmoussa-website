@@ -5,40 +5,40 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/2LuFL_Ezd0AAjIGZeLkiL/_buildManifest.js",
-    "static/2LuFL_Ezd0AAjIGZeLkiL/_ssgManifest.js"
+    "static/f8k4QDF8_Z6KHI6AbrzTd/_buildManifest.js",
+    "static/f8k4QDF8_Z6KHI6AbrzTd/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-5c49c5f839c5f2f3.js",
+      "static/chunks/webpack-a7a0f2af06133e2b.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-b9ce897ce7226b56.js",
+      "static/chunks/main-5539d307500403cf.js",
       "static/chunks/pages/index-3d704cde8c7e75e0.js"
     ],
     "/_app": [
-      "static/chunks/webpack-5c49c5f839c5f2f3.js",
+      "static/chunks/webpack-a7a0f2af06133e2b.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-b9ce897ce7226b56.js",
-      "static/css/6737b1755d3f539b.css",
+      "static/chunks/main-5539d307500403cf.js",
+      "static/css/5b11b8673083c881.css",
       "static/chunks/pages/_app-93b8a894e89f917f.js"
     ],
     "/_error": [
-      "static/chunks/webpack-5c49c5f839c5f2f3.js",
+      "static/chunks/webpack-a7a0f2af06133e2b.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-b9ce897ce7226b56.js",
+      "static/chunks/main-5539d307500403cf.js",
       "static/chunks/pages/_error-47e526b08b70a03d.js"
     ],
     "/privacy": [
-      "static/chunks/webpack-5c49c5f839c5f2f3.js",
+      "static/chunks/webpack-a7a0f2af06133e2b.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-b9ce897ce7226b56.js",
+      "static/chunks/main-5539d307500403cf.js",
       "static/chunks/pages/privacy-824b0cc7fbc95390.js"
     ],
     "/terms": [
-      "static/chunks/webpack-5c49c5f839c5f2f3.js",
+      "static/chunks/webpack-a7a0f2af06133e2b.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-b9ce897ce7226b56.js",
+      "static/chunks/main-5539d307500403cf.js",
       "static/chunks/pages/terms-a21e1e0bbff07da7.js"
     ]
   },
