@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -104,8 +105,8 @@ const Contact = () => {
                             />
 
                             <p>
-                              We only have one chance to make a first impression, let's make it an
-                              amazing one.
+                              We only have one chance to make a first impression, let&#39;s make it
+                              an amazing one.
                             </p>
                           </div>
                           <div className="uk-panel">
@@ -134,6 +135,7 @@ const Contact = () => {
                                   aria-label="linkedin"
                                   href="https://www.linkedin.com/in/ghaiethbenmoussa/"
                                   target="_blank"
+                                  rel="noreferrer"
                                 >
                                   <i className="uk-icon uk-icon-small unicon-logo-linkedin"></i>
                                 </a>
@@ -143,6 +145,7 @@ const Contact = () => {
                                   aria-label="github"
                                   href="https://github.com/benmoussa96"
                                   target="_blank"
+                                  rel="noreferrer"
                                 >
                                   <i className="uk-icon uk-icon-small unicon-logo-github"></i>
                                 </a>
@@ -152,6 +155,7 @@ const Contact = () => {
                                   aria-label="instagram"
                                   href="https://www.instagram.com/thechaingenius/"
                                   target="_blank"
+                                  rel="noreferrer"
                                 >
                                   <i className="uk-icon uk-icon-small unicon-logo-instagram"></i>
                                 </a>
@@ -161,6 +165,7 @@ const Contact = () => {
                                   aria-label="medium"
                                   href="https://thechaingenius.medium.com"
                                   target="_blank"
+                                  rel="noreferrer"
                                 >
                                   <i className="uk-icon uk-icon-small unicon-logo-medium"></i>
                                 </a>
@@ -170,6 +175,7 @@ const Contact = () => {
                                   aria-label="discord"
                                   href="https://discordapp.com/users/1069635708140142592"
                                   target="_blank"
+                                  rel="noreferrer"
                                 >
                                   <i className="uk-icon uk-icon-small unicon-logo-discord"></i>
                                 </a>

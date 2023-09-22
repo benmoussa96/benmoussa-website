@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -62,12 +63,18 @@ const Footer = () => {
                       aria-label="linkedin"
                       href="https://www.linkedin.com/in/ghaiethbenmoussa/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-linkedin"></span>
                     </a>
                   </li>
                   <li>
-                    <a aria-label="github" href="https://github.com/benmoussa96" target="_blank">
+                    <a
+                      aria-label="github"
+                      href="https://github.com/benmoussa96"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-github"></span>
                     </a>
                   </li>
@@ -76,12 +83,18 @@ const Footer = () => {
                       aria-label="instagram"
                       href="https://www.instagram.com/thechaingenius/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-instagram"></span>
                     </a>
                   </li>
                   <li>
-                    <a aria-label="medium" href="https://thechaingenius.medium.com" target="_blank">
+                    <a
+                      aria-label="medium"
+                      href="https://thechaingenius.medium.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-medium"></span>
                     </a>
                   </li>
@@ -90,6 +103,7 @@ const Footer = () => {
                       aria-label="discord"
                       href="https://discordapp.com/users/1069635708140142592"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <span className="uk-icon uk-icon-medium@m unicon-logo-discord"></span>
                     </a>

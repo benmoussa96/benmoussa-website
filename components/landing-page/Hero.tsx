@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -96,7 +97,7 @@ const Hero = () => {
                     Boost your blockchain applications
                   </h2>
                   <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                    Hi, I'm Ben Moussa, software engineer & blockchain expert,{" "}
+                    Hi, I&#39;m Ben Moussa, software engineer & blockchain expert,{" "}
                     <span className="uk-text-gradient">builder of decentralised solutions</span> for
                     the decentralised futur.
                   </p>
@@ -187,6 +188,7 @@ const Hero = () => {
               className=" uni-circle-text uk-background-white dark:uk-background-gray-80 uk-box-shadow-large  uk-visible@m"
               href="https://github.com/benmoussa96"
               target="_blank"
+              rel="noreferrer"
             >
               <svg
                 className="uni-circle-text-path uk-text-secondary uni-animation-spin"

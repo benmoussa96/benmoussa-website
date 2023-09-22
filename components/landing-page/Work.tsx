@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import { work } from "@/constants";
 import Link from "next/link";
 
@@ -59,6 +59,7 @@ const Work = () => {
                         <a
                           href={project.website}
                           target="_blank"
+                          rel="noreferrer"
                           style={{ textDecoration: "none" }}
                         >
                           <span className="uk-text-small">@{project.company}</span>

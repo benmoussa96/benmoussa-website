@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Clients = () => {
   return (
@@ -18,7 +19,7 @@ const Clients = () => {
             data-uk-grid=""
           >
             <div>
-              <a href="https://www.kayros.games/" target="_blank">
+              <a href="https://www.kayros.games/" target="_blank" rel="noreferrer">
                 <img
                   className="uk-width-xsmall"
                   src="../assets/images/clients/kayros-light.svg"
@@ -28,7 +29,7 @@ const Clients = () => {
               </a>
             </div>
             <div>
-              <a href="https://darblockchain.io/" target="_blank">
+              <a href="https://darblockchain.io/" target="_blank" rel="noreferrer">
                 <img
                   className="uk-width-xsmall"
                   src="../assets/images/clients/dar-blockchain-light.svg"
@@ -38,7 +39,7 @@ const Clients = () => {
               </a>
             </div>
             <div>
-              <a href="https://decentralizeimpact.com/" target="_blank">
+              <a href="https://decentralizeimpact.com/" target="_blank" rel="noreferrer">
                 <img
                   className="uk-width-xsmall"
                   src="../assets/images/clients/di-light.svg"

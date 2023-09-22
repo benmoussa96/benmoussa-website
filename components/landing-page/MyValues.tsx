@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const MyValues = () => {
   return (
@@ -135,7 +136,8 @@ const MyValues = () => {
                       <div className="uk-panel uk-width-expand@s">
                         <h3 className="uk-h5 uk-text-uppercase">Collaboration</h3>
                         <p>
-                          Recieving and giving constructive feedback to achieve the team's goals.
+                          Recieving and giving constructive feedback to achieve the team&#39;s
+                          goals.
                         </p>
                       </div>
                     </div>

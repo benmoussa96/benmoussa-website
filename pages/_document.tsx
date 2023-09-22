@@ -11,8 +11,8 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
-        <meta name="title" content="benMoussa" />
-        <meta name="description" content="Ben Moussa - Building The Decentralized Future" />
+        <meta name="title" content="theChainGenius" />
+        <meta name="description" content="theChainGenius - Building The Decentralized Future" />
         <meta name="theme-color" content="#741ff5" />
         <link
           rel="preload"
@@ -42,6 +42,21 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+
+        <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/uikit.min.js" />
+        <Script src="/assets/js/uikit-components.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/swiper-bundle.min.js" />
+        <Script src="/assets/js/feather.min.js" />
+        <Script src="/assets/js/typed.min.js" />
+        <Script src="/assets/js/anime.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/app-head.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/app.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/swiper-helper.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/typed-helper.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/anime-helper.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/anime-helper-defined-timelines.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/schema-toggle.js" strategy="beforeInteractive" />
       </body>
     </Html>
   );

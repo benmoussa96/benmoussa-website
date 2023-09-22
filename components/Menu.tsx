@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Menu = () => {
@@ -65,12 +66,16 @@ const Menu = () => {
                 <div className="uk-navbar-item">
                   <ul className="uk-subnav uk-subnav-small uk-visible@m">
                     <li>
-                      <a href="https://www.linkedin.com/in/ghaiethbenmoussa/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/ghaiethbenmoussa/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <i className="uk-icon unicon-logo-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://github.com/benmoussa96" target="_blank">
+                      <a href="https://github.com/benmoussa96" target="_blank" rel="noreferrer">
                         <i className="uk-icon unicon-logo-github"></i>
                       </a>
                     </li>
