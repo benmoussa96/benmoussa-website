@@ -5,7 +5,10 @@ import { expertise } from "@/constants";
 
 const Expertise = () => {
   return (
-    <div id="expertise" className="uni-whyus uk-section uk-section-xlarge@m uk-panel">
+    <div
+      id="expertise"
+      className="uni-whyus uk-section uk-section-xlarge@m uk-panel uk-overflow-hidden"
+    >
       <div className="uk-container">
         <header
           className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-text-center uk-child-width-auto@m uk-grid"

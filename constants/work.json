@@ -5,9 +5,9 @@
     "company": "KayrosGames",
     "website": "https://www.kayros.games/",
     "icon": "icons/kayros-icon.png",
-    "image1": "apps/kayros/screenshot-01.png",
-    "image2": "apps/kayros/screenshot-02.png",
-    "image3": "apps/kayros/screenshot-03.png"
+    "image1": "apps/kayros/Screenshot-01.png",
+    "image2": "apps/kayros/Screenshot-02.png",
+    "image3": "apps/kayros/Screenshot-03.png"
   },
   {
     "id": "2",
@@ -15,9 +15,9 @@
     "company": "DarBlockchain",
     "website": "https://darblockchain.io/",
     "icon": "icons/dar-blockchain-icon.png",
-    "image1": "apps/di/screenshot-04.png",
-    "image2": "apps/di/screenshot-05.png",
-    "image3": "apps/di/screenshot-03.png"
+    "image1": "apps/di/Screenshot-04.png",
+    "image2": "apps/di/Screenshot-05.png",
+    "image3": "apps/di/Screenshot-03.png"
   },
   {
     "id": "3",

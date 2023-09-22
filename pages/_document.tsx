@@ -15,7 +15,7 @@ export default function Document() {
         <meta name="description" content="theChainGenius - Building The Decentralized Future" />
         <meta name="theme-color" content="#741ff5" />
         <link
-          rel="preload"
+          rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
           as="style"
         />
@@ -34,29 +34,22 @@ export default function Document() {
           crossOrigin="anonymous"
         />
         <link
-          rel="preload"
+          rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css"
           as="style"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Preahvihear&family=Space+Grotesk:wght@400;700&family=Inter:wght@200;400;600&display=swap"
         />
       </Head>
       <body>
         <Main />
         <NextScript />
-
-        <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/uikit.min.js" />
-        <Script src="/assets/js/uikit-components.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/swiper-bundle.min.js" />
-        <Script src="/assets/js/feather.min.js" />
-        <Script src="/assets/js/typed.min.js" />
-        <Script src="/assets/js/anime.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/app-head.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/app.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/swiper-helper.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/typed-helper.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/anime-helper.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/anime-helper-defined-timelines.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/schema-toggle.js" strategy="beforeInteractive" />
       </body>
     </Html>
   );
