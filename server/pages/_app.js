@@ -16,13 +16,10 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ App)
 });
 
-// EXTERNAL MODULE: ./node_modules/next/script.js
-var script = __webpack_require__(4298);
-var script_default = /*#__PURE__*/__webpack_require__.n(script);
-// EXTERNAL MODULE: ./public/assets/scss/theme/main.scss
-var main = __webpack_require__(1126);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./public/assets/scss/theme/main.scss
+var main = __webpack_require__(1126);
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./components/DarkModeToggle.tsx
@@ -203,6 +200,7 @@ const Contact = () => {
                                 "aria-label": "linkedin",
                                 href: "https://www.linkedin.com/in/ghaiethbenmoussa/",
                                 target: "_blank",
+                                rel: "noreferrer",
                                 children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                                   className: "uk-icon uk-icon-small unicon-logo-linkedin"
                                 })
@@ -212,6 +210,7 @@ const Contact = () => {
                                 "aria-label": "github",
                                 href: "https://github.com/benmoussa96",
                                 target: "_blank",
+                                rel: "noreferrer",
                                 children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                                   className: "uk-icon uk-icon-small unicon-logo-github"
                                 })
@@ -221,6 +220,7 @@ const Contact = () => {
                                 "aria-label": "instagram",
                                 href: "https://www.instagram.com/thechaingenius/",
                                 target: "_blank",
+                                rel: "noreferrer",
                                 children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                                   className: "uk-icon uk-icon-small unicon-logo-instagram"
                                 })
@@ -230,6 +230,7 @@ const Contact = () => {
                                 "aria-label": "medium",
                                 href: "https://thechaingenius.medium.com",
                                 target: "_blank",
+                                rel: "noreferrer",
                                 children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                                   className: "uk-icon uk-icon-small unicon-logo-medium"
                                 })
@@ -239,6 +240,7 @@ const Contact = () => {
                                 "aria-label": "discord",
                                 href: "https://discordapp.com/users/1069635708140142592",
                                 target: "_blank",
+                                rel: "noreferrer",
                                 children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                                   className: "uk-icon uk-icon-small unicon-logo-discord"
                                 })
@@ -466,6 +468,7 @@ const Menu = () => {
                     children: /*#__PURE__*/jsx_runtime_.jsx("a", {
                       href: "https://www.linkedin.com/in/ghaiethbenmoussa/",
                       target: "_blank",
+                      rel: "noreferrer",
                       children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                         className: "uk-icon unicon-logo-linkedin"
                       })
@@ -474,6 +477,7 @@ const Menu = () => {
                     children: /*#__PURE__*/jsx_runtime_.jsx("a", {
                       href: "https://github.com/benmoussa96",
                       target: "_blank",
+                      rel: "noreferrer",
                       children: /*#__PURE__*/jsx_runtime_.jsx("i", {
                         className: "uk-icon unicon-logo-github"
                       })
@@ -595,6 +599,7 @@ const Footer = () => {
                     "aria-label": "linkedin",
                     href: "https://www.linkedin.com/in/ghaiethbenmoussa/",
                     target: "_blank",
+                    rel: "noreferrer",
                     children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "uk-icon uk-icon-medium@m unicon-logo-linkedin"
                     })
@@ -604,6 +609,7 @@ const Footer = () => {
                     "aria-label": "github",
                     href: "https://github.com/benmoussa96",
                     target: "_blank",
+                    rel: "noreferrer",
                     children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "uk-icon uk-icon-medium@m unicon-logo-github"
                     })
@@ -613,6 +619,7 @@ const Footer = () => {
                     "aria-label": "instagram",
                     href: "https://www.instagram.com/thechaingenius/",
                     target: "_blank",
+                    rel: "noreferrer",
                     children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "uk-icon uk-icon-medium@m unicon-logo-instagram"
                     })
@@ -622,6 +629,7 @@ const Footer = () => {
                     "aria-label": "medium",
                     href: "https://thechaingenius.medium.com",
                     target: "_blank",
+                    rel: "noreferrer",
                     children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "uk-icon uk-icon-medium@m unicon-logo-medium"
                     })
@@ -631,6 +639,7 @@ const Footer = () => {
                     "aria-label": "discord",
                     href: "https://discordapp.com/users/1069635708140142592",
                     target: "_blank",
+                    rel: "noreferrer",
                     children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "uk-icon uk-icon-medium@m unicon-logo-discord"
                     })
@@ -703,7 +712,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
 function App({
   Component,
   pageProps
@@ -712,45 +720,7 @@ function App({
     document.getElementById("__next")?.classList.add("uni-body");
   });
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-    children: [/*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/jquery.min.js",
-      strategy: "beforeInteractive"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/uikit.min.js"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/uikit-components.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/swiper-bundle.min.js"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/feather.min.js"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/typed.min.js"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/anime.min.js",
-      strategy: "beforeInteractive"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/app-head.js",
-      strategy: "beforeInteractive"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/app.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/swiper-helper.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/typed-helper.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/anime-helper.js",
-      strategy: "beforeInteractive"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/anime-helper-defined-timelines.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx((script_default()), {
-      src: "/assets/js/schema-toggle.js",
-      strategy: "lazyOnload"
-    }), /*#__PURE__*/jsx_runtime_.jsx(components_DarkModeToggle, {}), /*#__PURE__*/jsx_runtime_.jsx(components_MenuMobile, {}), /*#__PURE__*/jsx_runtime_.jsx(components_Contact, {}), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+    children: [/*#__PURE__*/jsx_runtime_.jsx(components_DarkModeToggle, {}), /*#__PURE__*/jsx_runtime_.jsx(components_MenuMobile, {}), /*#__PURE__*/jsx_runtime_.jsx(components_Contact, {}), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
       className: "wrap",
       children: [/*#__PURE__*/jsx_runtime_.jsx(components_Menu, {}), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps))]
     }), /*#__PURE__*/jsx_runtime_.jsx(components_Footer, {})]
@@ -989,7 +959,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,676,835], () => (__webpack_exec__(5167)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,922,664], () => (__webpack_exec__(5167)));
 module.exports = __webpack_exports__;
 
 })();
