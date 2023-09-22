@@ -14,7 +14,7 @@ export default function Document() {
         <meta name="title" content="theChainGenius" />
         <meta name="description" content="theChainGenius - Building The Decentralized Future" />
         <meta name="theme-color" content="#741ff5" />
-        <link rel="icon" href="/assets/images/icons/light-icon-outline.png" />
+        <link rel="icon" href="/assets/images/icons/dark-icon-grey.png" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
