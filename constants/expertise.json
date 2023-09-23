@@ -11,14 +11,14 @@
     "level": "★★★★★",
     "name": "Front End",
     "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly responsive websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
-    "skills": ["React JS", "Redux", "UI/UX"]
+    "skills": ["Next JS, React", "Redux", "UI/UX"]
   },
   {
     "id": "3",
     "level": "★★★★☆",
     "name": "DeFi",
     "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi, analyze market dynamics, anticipate risks, and optimize financial strategies.",
-    "skills": ["DEXs", "Liquid Staking", "Yield Farming"]
+    "skills": ["DEXs", "Liquid Staking", "Alorithmic Trading"]
   },
   {
     "id": "4",
