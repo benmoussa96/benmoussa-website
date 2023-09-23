@@ -3,28 +3,35 @@
     "id": "1",
     "level": "★★★★★",
     "name": "Smart Contracts",
-    "description": "With a comprehensive understanding of EVM protocols and use cases, I leverage my expertise to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
-    "skills": ["Cryptography", "Solidity", "Ethers JS"]
+    "description": "I leverage my expertise and comprehensive understanding of EVM protocols and use cases to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
+    "skills": ["Cryptography", "Solidity", "Gas Optimization"]
   },
   {
     "id": "2",
     "level": "★★★★★",
     "name": "Front End",
-    "description": "By seamlessly blending aesthetics and functionality, I can craft visually stunning and highly responsive websites with pixel-perfect layouts and intuitive interfaces that leave a lasting impression on users.",
+    "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly responsive websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
     "skills": ["React JS", "Redux", "UI/UX"]
   },
   {
     "id": "3",
+    "level": "★★★★☆",
+    "name": "DeFi",
+    "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi, analyze market dynamics, anticipate risks, and optimize financial strategies.",
+    "skills": ["DEXs", "Liquid Staking", "Yield Farming"]
+  },
+  {
+    "id": "4",
     "level": "★★★★☆",
     "name": "Back End",
     "description": "My mastery of server-side architecture patterns allows me to create robust, efficient, and scalable back-end systems and flawlessly integrate them with front-end systems.",
     "skills": ["TypeScript", "Node JS", "Docker"]
   },
   {
-    "id": "4",
-    "level": "★★☆☆☆",
+    "id": "5",
+    "level": "★★★☆☆",
     "name": "Project Mgmt",
     "description": "Thanks to my strong technical background and results driven approach, I am excellent in planning and executing complex projects while proactively managing risks.",
-    "skills": ["Organization", "Communication", "Planning & exection"]
+    "skills": ["Organization", "Communication", "Planning & Exection"]
   }
 ]
