@@ -649,13 +649,13 @@ body:not(.uni-is-login) .uni-login-visible {
 }
 
 .swiper-dotnav {
-  &.swiper-pagination-progressbar {
-    height: 8px !important;
-    width: 32vh !important;
-    margin: 0 auto;
+  &.swiper-pagination-fraction {
+    // height: 8px !important;
+    // width: 32vh !important;
+    // margin: 0 auto;
     left: 50% !important;
-    top: auto !important;
-    bottom: 0;
+    // top: auto !important;
+    // bottom: 0;
     // background-color: rgb(156 156 156 / 15%);
     transform: translate(-50%, 48px);
     // border-radius: 8px;

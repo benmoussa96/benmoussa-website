@@ -100,7 +100,7 @@ const Expertise = () => {
             </div>
 
             {/* <!-- Pagination --> */}
-            <div className="swiper-pagination swiper-pagination-progressbar swiper-dotnav"></div>
+            <div className="swiper-pagination swiper-pagination-fraction swiper-dotnav"></div>
           </div>
 
           {/* <!-- Navigation --> */}
