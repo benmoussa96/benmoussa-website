@@ -656,13 +656,13 @@ body:not(.uni-is-login) .uni-login-visible {
     left: 50% !important;
     top: auto !important;
     bottom: 0;
-    background-color: rgb(156 156 156 / 15%);
+    // background-color: rgb(156 156 156 / 15%);
     transform: translate(-50%, 48px);
-    border-radius: 8px;
-    overflow: hidden;
-    .swiper-pagination-progressbar-fill {
-      @include gradient;
-    }
+    // border-radius: 8px;
+    // overflow: hidden;
+    // .swiper-pagination-progressbar-fill {
+    //   @include gradient;
+    // }
   }
 }
 

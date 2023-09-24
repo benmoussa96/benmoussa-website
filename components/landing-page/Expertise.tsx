@@ -32,7 +32,7 @@ const Expertise = () => {
       // If we need pagination
       pagination: {
         el: ".swiper-pagination",
-        type: "progressbar",
+        type: "fraction",
       },
 
       // Navigation arrows
