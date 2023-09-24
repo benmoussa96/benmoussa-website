@@ -3,7 +3,7 @@
     "id": "1",
     "level": "★★★★★",
     "name": "Smart Contracts",
-    "description": "I leverage my expertise and comprehensive understanding of EVM protocols and use cases to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
+    "description": "I leverage my comprehensive understanding of EVM protocols and use cases to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
     "skills": ["Cryptography", "Solidity", "Gas Optimization"]
   },
   {
@@ -16,16 +16,16 @@
   {
     "id": "3",
     "level": "★★★★☆",
-    "name": "DeFi",
-    "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi, analyze market dynamics, anticipate risks, and optimize financial strategies.",
-    "skills": ["DEXs", "Liquid Staking", "Alorithmic Trading"]
+    "name": "Back End",
+    "description": "My mastery of server-side architecture patterns allows me to create robust, efficient, and scalable back-end systems and flawlessly integrate them with front-end systems.",
+    "skills": ["TypeScript", "Node JS", "Docker"]
   },
   {
     "id": "4",
     "level": "★★★★☆",
-    "name": "Back End",
-    "description": "My mastery of server-side architecture patterns allows me to create robust, efficient, and scalable back-end systems and flawlessly integrate them with front-end systems.",
-    "skills": ["TypeScript", "Node JS", "Docker"]
+    "name": "DeFi",
+    "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi, analyzing market dynamics, anticipating risks, and optimizing financial strategies.",
+    "skills": ["DEXs", "Lending, Staking", "Alorithmic Trading"]
   },
   {
     "id": "5",

@@ -10,6 +10,17 @@ import MenuMobile from "@/components/MenuMobile";
 import Menu from "@/components/Menu";
 import Footer from "@/components/Footer";
 
+import { register } from "swiper/element/bundle";
+register();
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      "swiper-container": React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      "swiper-slide": React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+    }
+  }
+}
+
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     document.getElementById("__next")?.classList.add("uni-body");

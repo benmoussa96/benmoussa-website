@@ -1,49 +1,48 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
 import { expertise } from "@/constants";
-import Swiper, { Navigation, Pagination, Scrollbar } from "swiper";
+
+import Swiper from "swiper";
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const swiper = new Swiper(".swiper", {
-  // configure Swiper to use modules
-  modules: [Navigation, /*Scrollbar,*/ Pagination],
-
-  // Optional parameters
-  direction: "horizontal",
-  spaceBetween: 30,
-  effect: "coverflow",
-  coverflowEffect: {
-    depth: 100,
-    modifier: 1,
-    rotate: 50,
-    scale: 1,
-    slideShadows: true,
-    stretch: 0,
-  },
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-    type: "bullets",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-next",
-    prevEl: ".swiper-prev",
-  },
-
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: ".swiper-pagination-progressbar",
-  // },
-});
-
 const Expertise = () => {
+  useEffect(() => {
+    new Swiper(".swiper", {
+      // configure Swiper to use modules
+      // modules: [Navigation, /*Scrollbar,*/ Pagination],
+
+      // Optional parameters
+      // direction: "horizontal",
+      // spaceBetween: 30,
+      effect: "coverflow",
+      coverflowEffect: {
+        depth: 80,
+        modifier: 1,
+        rotate: 40,
+        scale: 1,
+        slideShadows: true,
+        stretch: 0,
+      },
+
+      // If we need pagination
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-next",
+        prevEl: ".swiper-prev",
+      },
+    });
+  }, []);
+
   return (
     <div
       id="expertise"
@@ -87,7 +86,7 @@ const Expertise = () => {
                         <hr className="uk-width-2xsmall uk-margin-medium@m" />
                         <ul className="uk-list uk-text-small uk-text-medium@m">
                           {exp.skills.map((skill) => (
-                            <li key={exp.id + skill} className="uk-flex-middle">
+                            <li key={skill} className="uk-flex-middle">
                               <i className="uk-icon uk-icon-xsmall uk-icon-small@m unicon-checkmark-outline uk-margin-xsmall-right uk-text-gradient"></i>{" "}
                               {skill}
                             </li>
@@ -101,11 +100,7 @@ const Expertise = () => {
             </div>
 
             {/* <!-- Pagination --> */}
-            <div
-              className="swiper-pagination"
-              style={{ margin: "auto", bottom: "-50px !important" }}
-            ></div>
-            {/** swiper-dotnav"></div> */}
+            <div className="swiper-pagination swiper-pagination-progressbar swiper-dotnav"></div>
           </div>
 
           {/* <!-- Navigation --> */}

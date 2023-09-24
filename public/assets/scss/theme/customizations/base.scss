@@ -650,11 +650,11 @@ body:not(.uni-is-login) .uni-login-visible {
 
 .swiper-dotnav {
   &.swiper-pagination-progressbar {
-    height: 8px;
-    width: 32vh;
+    height: 8px !important;
+    width: 32vh !important;
     margin: 0 auto;
-    left: 50%;
-    top: auto;
+    left: 50% !important;
+    top: auto !important;
     bottom: 0;
     background-color: rgb(156 156 156 / 15%);
     transform: translate(-50%, 48px);
