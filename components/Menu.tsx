@@ -57,11 +57,6 @@ const Menu = () => {
                       Previous Work
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href="/#testimonials" data-uk-scroll>
-                      Testimonials
-                    </Link>
-                  </li> */}
                 </ul>
                 <div className="uk-navbar-item">
                   <ul className="uk-subnav uk-subnav-small uk-visible@m">
@@ -93,11 +88,11 @@ const Menu = () => {
 
                 <div className="uk-navbar-item uk-hidden@m">
                   <a
-                    href="#uni_connect_wallet"
+                    href="#uni_contact"
                     className="uk-button uk-button-medium@m uk-button-icon uk-hidden@m uk-margin-small-right"
                     data-uk-toggle=""
                   >
-                    <i className="uk-icon unicon-wallet"></i>
+                    <i className="uk-icon unicon-chat"></i>
                   </a>
                   <a href="#uni_mobile_menu" data-uk-toggle="">
                     <span className="uk-icon uk-icon-medium material-icons">menu</span>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MenuMobile = () => {
@@ -32,44 +33,40 @@ const MenuMobile = () => {
             <div className="uk-card uk-card-small">
               <div className="uk-panel">
                 <ul className="uk-nav uk-nav-default">
-                  <li className="uk-nav-header">Homepages</li>
+                  <li className="uk-nav-header">Home</li>
                   <li>
-                    <a href="landing-01.html">Landing 01</a>
+                    <Link href="/#about_me" data-uk-scroll>
+                      About Me
+                    </Link>
                   </li>
                   <li>
-                    <a href="landing-02.html">Landing 02</a>
+                    <Link href="/#expertise" data-uk-scroll>
+                      Expertise
+                    </Link>
                   </li>
                   <li>
-                    <a href="landing-03.html">Landing 03</a>
+                    <Link href="/#work" data-uk-scroll>
+                      Previous Work
+                    </Link>
+                  </li>
+                  {/* ----------------------------------------- */}
+                  <li className="uk-nav-header">Projects</li>
+                  <li>
+                    <a href="/projects/1">Kayros Exchange</a>
                   </li>
                   <li>
-                    <a href="landing-04.html">Landing 04</a>
+                    <a href="/projects/2">Decentralise Impact</a>
                   </li>
                   <li>
-                    <a href="landing-05.html">Landing 05</a>
+                    <a href="#">Helium</a>
                   </li>
-                  <li className="uk-nav-header">Inner pages</li>
-                  <li>
-                    <a href="base.html">Base components</a>
-                  </li>
-                  <li>
-                    <a href="connect-wallet.html">Connect wallet</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
-                  </li>
-                  <li>
-                    <a href="404.html">404 page</a>
-                  </li>
-                  <li>
-                    <a href="coming-soon.html">Coming soon</a>
-                  </li>
+                  {/* ----------------------------------------- */}
                   <li className="uk-nav-header">Content &amp; Privacy</li>
                   <li>
-                    <a href="terms.html">Terms of use</a>
+                    <a href="/terms">Terms of use</a>
                   </li>
                   <li>
-                    <a href="privact.html">Privacy Policy</a>
+                    <a href="/privacy">Privacy Policy</a>
                   </li>
                 </ul>
               </div>

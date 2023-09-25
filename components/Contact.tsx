@@ -91,6 +91,27 @@ const Contact = () => {
                       <div className="uk-card uk-card-small uk-card-large@m">
                         <div className="uk-grid uk-child-width-1-2@m" data-uk-grid="">
                           <div className="uk-panel">
+                            <ul className="uk-list">
+                              <li>
+                                <h2 className="uk-h5 uk-h4@m">Ghaieth BEN MOUSSA</h2>
+                              </li>
+                              <li>
+                                <a
+                                  href="mailto:benmoussa@thechaingenius.com"
+                                  className="uk-link-reset"
+                                >
+                                  benmoussa@thechaingenius.com
+                                </a>
+                              </li>
+                              <li>
+                                <a href="tel:0021696314176" className="uk-link-reset">
+                                  +1 (505) 302 1977
+                                </a>
+                              </li>
+                              <li>2105 Vista Oeste NW, Suite E #2091 Albuquerque, NM 87120</li>
+                            </ul>
+                          </div>
+                          <div className="uk-panel">
                             <img
                               className="uk-hidden dark:uk-visible"
                               width="195"
@@ -108,28 +129,8 @@ const Contact = () => {
                               We only have one chance to make a first impression, let&#39;s make it
                               an amazing one.
                             </p>
-                          </div>
-                          <div className="uk-panel">
-                            <ul className="uk-list">
-                              <li>
-                                <h2 className="uk-h5 uk-h4@m">Ghaieth BEN MOUSSA</h2>
-                              </li>
-                              <li>
-                                <a href="tel:0021696314176" className="uk-link-reset">
-                                  +1 (505) 302 1977
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="mailto:benmoussa@thechaingenius.com"
-                                  className="uk-link-reset"
-                                >
-                                  benmoussa@thechaingenius.com
-                                </a>
-                              </li>
-                              <li>2105 Vista Oeste NW, Suite E #2091 Albuquerque, NM 87120</li>
-                            </ul>
-                            <ul className="uk-subnav uk-subnav-small uk-margin-top uk-text-gray-70 dark:uk-text-gray-40">
+
+                            <ul className="uk-subnav uk-subnav-small uk-text-gray-70 dark:uk-text-gray-40">
                               <li>
                                 <a
                                   aria-label="linkedin"

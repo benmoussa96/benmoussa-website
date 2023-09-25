@@ -18,16 +18,7 @@ const Expertise = () => {
 
       // Optional parameters
       // direction: "horizontal",
-      // spaceBetween: 30,
-      effect: "coverflow",
-      coverflowEffect: {
-        depth: 80,
-        modifier: 1,
-        rotate: 40,
-        scale: 1,
-        slideShadows: true,
-        stretch: 0,
-      },
+      spaceBetween: 30,
 
       // If we need pagination
       pagination: {
