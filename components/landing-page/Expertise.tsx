@@ -4,7 +4,6 @@ import Image from "next/image";
 import { expertise } from "@/constants";
 
 import Swiper from "swiper";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -13,9 +12,6 @@ import "swiper/css/scrollbar";
 const Expertise = () => {
   useEffect(() => {
     new Swiper(".swiper", {
-      // configure Swiper to use modules
-      // modules: [Navigation, /*Scrollbar,*/ Pagination],
-
       // Optional parameters
       // direction: "horizontal",
       spaceBetween: 30,

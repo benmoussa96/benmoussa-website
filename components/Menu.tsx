@@ -1,10 +1,15 @@
-import React from "react";
-import Image from "next/image";
+import React, { useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 const Menu = () => {
+  const router = useRouter();
+
   return (
-    <header id="uni-header" className="uni-header uk-position-top">
+    <header
+      id="uni-header"
+      className={`uni-header ${router.pathname === "/" ? "uk-position-top" : ""}`}
+    >
       <div
         className="uni-header-navbar"
         data-uk-sticky="top: 70; show-on-up: false; animation: uk-animation-slide-top"
@@ -14,10 +19,10 @@ const Menu = () => {
           <nav className="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
             <div className="uk-navbar-top">
               <div className="uk-navbar-left" style={{ width: "165px" }}>
-                <Link
+                <a
                   className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
                   href="/"
-                  data-uk-scroll
+                  data-uk-scroll={router.pathname === "/"}
                 >
                   <img
                     className="uk-visible dark:uk-hidden"
@@ -33,7 +38,7 @@ const Menu = () => {
                     alt="The Chain Genius"
                     loading="lazy"
                   />
-                </Link>
+                </a>
               </div>
 
               <div className="uk-navbar-right uk-flex-1 uk-flex-right">
@@ -43,19 +48,19 @@ const Menu = () => {
                   data-uk-navbar-bound=""
                 >
                   <li>
-                    <Link href="/#about_me" data-uk-scroll>
+                    <a href="/#about_me" data-uk-scroll>
                       About Me
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="/#expertise" data-uk-scroll>
+                    <a href="/#expertise" data-uk-scroll>
                       Expertise
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="/#work" data-uk-scroll>
+                    <a href="/#work" data-uk-scroll>
                       Previous Work
-                    </Link>
+                    </a>
                   </li>
                 </ul>
                 <div className="uk-navbar-item">

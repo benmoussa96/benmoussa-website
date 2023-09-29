@@ -59,6 +59,11 @@ const Footer = () => {
                 </p>
                 <ul className="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-40 uk-margin-top uk-margin-medium-top@m">
                   <li>
+                    <a href="mailto:benmoussa@thechaingenius.com">
+                      <i className="uk-icon uk-icon-medium@m material-icons">mail</i>
+                    </a>
+                  </li>
+                  <li>
                     <a
                       aria-label="linkedin"
                       href="https://www.linkedin.com/in/ghaiethbenmoussa/"
@@ -80,16 +85,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      aria-label="instagram"
-                      href="https://www.instagram.com/thechaingenius/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="uk-icon uk-icon-medium@m unicon-logo-instagram"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       aria-label="medium"
                       href="https://thechaingenius.medium.com"
                       target="_blank"
@@ -100,12 +95,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      aria-label="discord"
-                      href="https://discordapp.com/users/1069635708140142592"
+                      aria-label="instagram"
+                      href="https://www.instagram.com/thechaingenius/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <span className="uk-icon uk-icon-medium@m unicon-logo-discord"></span>
+                      <span className="uk-icon uk-icon-medium@m unicon-logo-instagram"></span>
                     </a>
                   </li>
                 </ul>

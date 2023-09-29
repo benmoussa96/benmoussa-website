@@ -7,7 +7,12 @@
     "icon": "icons/kayros-icon.png",
     "image1": "apps/kayros/Screenshot-01.png",
     "image2": "apps/kayros/Screenshot-02.png",
-    "image3": "apps/kayros/Screenshot-03.png"
+    "image3": "apps/kayros/Screenshot-03.png",
+    "date": "September 2022",
+    "category": "Exchange",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tags": ["Ethereum", "Crypto", "DigitalAssets"],
+    "featured": true
   },
   {
     "id": "2",
@@ -17,7 +22,11 @@
     "icon": "icons/dar-blockchain-icon.png",
     "image1": "apps/di/Screenshot-04.png",
     "image2": "apps/di/Screenshot-05.png",
-    "image3": "apps/di/Screenshot-03.png"
+    "image3": "apps/di/Screenshot-03.png",
+    "date": "February 2022",
+    "category": "DAO",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tags": ["Ethereum", "Crypto", "DigitalAssets"]
   },
   {
     "id": "3",
@@ -27,6 +36,10 @@
     "icon": "icons/wecraft-icon.png",
     "image1": "apps/helium/Screenshot-01.png",
     "image2": "apps/helium/Screenshot-02.png",
-    "image3": "apps/helium/Screenshot-03.png"
+    "image3": "apps/helium/Screenshot-03.png",
+    "date": "January 2020",
+    "category": "SaaS",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "tags": ["Saas", "EventDriven", "Microservices"]
   }
 ]

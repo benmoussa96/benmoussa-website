@@ -1,7 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import { work } from "@/constants";
 import Link from "next/link";
+import { work } from "@/constants";
 
 const Work = () => {
   const imagesPath = "../assets/images/clients/";
@@ -47,12 +46,12 @@ const Work = () => {
                             className="uk-radius-2xlarge uk-cover"
                             data-uk-cover=""
                           />
-                          <a href="#" className="uk-position-cover"></a>
+                          <a href={project.website} className="uk-position-cover"></a>
                         </div>
                       </div>
                       <div className="uk-width-expand">
                         <h5 className="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" className="uk-link-reset">
+                          <a href={`/projects/${project.id}`} className="uk-link-reset">
                             {project.name}
                           </a>
                         </h5>
@@ -80,7 +79,7 @@ const Work = () => {
                               className="uk-cover"
                               data-uk-cover=""
                             />
-                            <a href="#" className="uk-position-cover"></a>
+                            <a href={`/projects/${project.id}`} className="uk-position-cover"></a>
                           </div>
                         </div>
                         <div>
@@ -95,7 +94,10 @@ const Work = () => {
                                     className="uk-cover"
                                     data-uk-cover=""
                                   />
-                                  <a href="#" className="uk-position-cover"></a>
+                                  <a
+                                    href={`/projects/${project.id}`}
+                                    className="uk-position-cover"
+                                  ></a>
                                 </div>
                               </div>
                               <div>
@@ -107,7 +109,10 @@ const Work = () => {
                                     className="uk-cover"
                                     data-uk-cover=""
                                   />
-                                  <a href="#" className="uk-position-cover"></a>
+                                  <a
+                                    href={`/projects/${project.id}`}
+                                    className="uk-position-cover"
+                                  ></a>
                                 </div>
                               </div>
                             </div>
@@ -124,13 +129,13 @@ const Work = () => {
             className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center"
             data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;"
           >
-            <a
-              href="#view_in_opensea"
+            <Link
+              href="/projects"
               className="uk-button uk-button-small uk-button-large@m uk-button-gradient"
             >
               <span>More projects</span>
               <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

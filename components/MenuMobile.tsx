@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import { work } from "@/constants";
 const MenuMobile = () => {
   return (
     <div
@@ -51,15 +51,11 @@ const MenuMobile = () => {
                   </li>
                   {/* ----------------------------------------- */}
                   <li className="uk-nav-header">Projects</li>
-                  <li>
-                    <a href="/projects/1">Kayros Exchange</a>
-                  </li>
-                  <li>
-                    <a href="/projects/2">Decentralise Impact</a>
-                  </li>
-                  <li>
-                    <a href="#">Helium</a>
-                  </li>
+                  {work.map((project) => (
+                    <li key={project.id}>
+                      <a href={`/projects/${project.id}`}>{project.name}</a>
+                    </li>
+                  ))}
                   {/* ----------------------------------------- */}
                   <li className="uk-nav-header">Content &amp; Privacy</li>
                   <li>

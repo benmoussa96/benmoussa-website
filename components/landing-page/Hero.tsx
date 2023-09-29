@@ -99,7 +99,7 @@ const Hero = () => {
                   <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
                     Hi, I&#39;m Ben Moussa, software engineer & blockchain expert,{" "}
                     <span className="uk-text-gradient">builder of decentralised solutions</span> for
-                    the decentralised futur.
+                    the decentralised future.
                   </p>
                   <a
                     href="#uni_contact"
