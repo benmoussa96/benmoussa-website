@@ -162,6 +162,7 @@ const Hero = () => {
           </div>
         </div>
         <div
+          className="uk-visible@m"
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
           style={{
             position: "absolute",

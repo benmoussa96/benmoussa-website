@@ -2,6 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { work } from "@/constants";
 const MenuMobile = () => {
+  const close = () => {
+    UIkit.offcanvas("#uni_mobile_menu").hide();
+  };
+
   return (
     <div
       id="uni_mobile_menu"
@@ -35,17 +39,17 @@ const MenuMobile = () => {
                 <ul className="uk-nav uk-nav-default">
                   <li className="uk-nav-header">Home</li>
                   <li>
-                    <Link href="/#about_me" data-uk-scroll>
+                    <Link href="/#about_me" data-uk-scroll data-offset="25" onClick={close}>
                       About Me
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#expertise" data-uk-scroll>
+                    <Link href="/#expertise" data-uk-scroll data-offset="25" onClick={close}>
                       Expertise
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#work" data-uk-scroll>
+                    <Link href="/#work" data-uk-scroll data-offset="25" onClick={close}>
                       Previous Work
                     </Link>
                   </li>
@@ -53,16 +57,22 @@ const MenuMobile = () => {
                   <li className="uk-nav-header">Projects</li>
                   {work.map((project) => (
                     <li key={project.id}>
-                      <a href={`/projects/${project.id}`}>{project.name}</a>
+                      <a href={`/projects/${project.id}`} onClick={close}>
+                        {project.name}
+                      </a>
                     </li>
                   ))}
                   {/* ----------------------------------------- */}
                   <li className="uk-nav-header">Content &amp; Privacy</li>
                   <li>
-                    <a href="/terms">Terms of use</a>
+                    <a href="/terms" onClick={close}>
+                      Terms of use
+                    </a>
                   </li>
                   <li>
-                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/privacy" onClick={close}>
+                      Privacy Policy
+                    </a>
                   </li>
                 </ul>
               </div>

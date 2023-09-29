@@ -22,7 +22,7 @@ const Menu = () => {
                 <a
                   className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
                   href="/"
-                  data-uk-scroll
+                  data-offset="25"
                 >
                   <img
                     className="uk-visible dark:uk-hidden"
@@ -48,17 +48,17 @@ const Menu = () => {
                   data-uk-navbar-bound=""
                 >
                   <li>
-                    <a href="/#about_me" data-uk-scroll>
+                    <a href="/#about_me" data-uk-scroll data-offset="25">
                       About Me
                     </a>
                   </li>
                   <li>
-                    <a href="/#expertise" data-uk-scroll>
+                    <a href="/#expertise" data-uk-scroll data-offset="25">
                       Expertise
                     </a>
                   </li>
                   <li>
-                    <a href="/#work" data-uk-scroll>
+                    <a href="/#work" data-uk-scroll data-offset="25">
                       Previous Work
                     </a>
                   </li>
@@ -99,8 +99,12 @@ const Menu = () => {
                   >
                     <i className="uk-icon unicon-chat"></i>
                   </a>
-                  <a href="#uni_mobile_menu" data-uk-toggle="">
-                    <span className="uk-icon uk-icon-medium material-icons">menu</span>
+                  <a
+                    href="#uni_mobile_menu"
+                    className="uk-button uk-button-medium@m uk-button-icon uk-hidden@m uk-margin-small-right"
+                    data-uk-toggle=""
+                  >
+                    <i className="uk-icon uk-icon-medium material-icons">menu</i>
                   </a>
                 </div>
               </div>

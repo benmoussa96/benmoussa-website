@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="uk-grid uk-flex-center uk-text-center" data-uk-grid>
             <div className="uk-width-xlarge@m">
               <div className="uk-panel">
-                <a href="#" className="uk-logo" data-uk-scroll>
+                <a href="#" className="uk-logo" data-uk-scroll data-offset="25">
                   <img
                     className="uk-hidden dark:uk-visible"
                     width="70"
@@ -122,7 +122,7 @@ const Footer = () => {
                     <Link href="/terms">Terms of use</Link>
                   </li>
                   <li className="uk-margin-small-left">
-                    <a href="#" data-uk-totop="" data-uk-scroll>
+                    <a href="#" data-uk-totop="" data-uk-scroll data-offset="25">
                       <i className="uk-icon uk-icon-small unicon-chevron-up"></i>
                     </a>
                   </li>

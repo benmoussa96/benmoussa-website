@@ -14,7 +14,7 @@ const Expertise = () => {
     new Swiper(".swiper", {
       // Optional parameters
       // direction: "horizontal",
-      spaceBetween: 30,
+      spaceBetween: 32,
 
       // If we need pagination
       pagination: {
@@ -50,9 +50,9 @@ const Expertise = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
         >
           <div
-            className="swiper swiper-match uk-overflow-unset"
-            data-swiper="gap: 16; dots-type: progressbar;"
-            data-swiper-m="gap: 32;"
+            className="swiper swiper-match uk-overflow-unset uk-margin-remove-bottom@m uk-margin-small-bottom"
+            data-swiper="gap: 16; dots-type: fraction;"
+            data-swiper-m="gap: 32; dots-type: fraction;"
           >
             <div
               className="swiper-wrapper uk-grid-match uk-flex-middle"
@@ -87,7 +87,10 @@ const Expertise = () => {
             </div>
 
             {/* <!-- Pagination --> */}
-            <div className="swiper-pagination swiper-pagination-fraction swiper-dotnav"></div>
+            <div
+              className="swiper-pagination swiper-pagination-fraction"
+              style={{ transform: "translate(0%, 48px);" }}
+            ></div>
           </div>
 
           {/* <!-- Navigation --> */}
