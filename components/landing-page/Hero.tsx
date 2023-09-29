@@ -69,26 +69,29 @@ const Hero = () => {
                   className="uk-panel uk-position-z-index uk-text-center uk-text-left@m"
                   data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
                 >
-                  <img
+                  <Image
                     className="uk-position-top-left uni-animation-bounce"
                     width="44"
-                    src="../assets/images/objects/ethereum-01.png"
+                    height="44"
+                    src="/assets/images/objects/ethereum-01.png"
                     alt="object"
                     style={{ top: "-20%", left: "50%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
                   />
-                  <img
+                  <Image
                     className="uk-position-left uni-animation-bounce"
                     width="16"
-                    src="../assets/images/objects/circle-01.png"
+                    height="16"
+                    src="/assets/images/objects/circle-01.png"
                     alt="object"
                     style={{ top: "16%", left: "-16%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 420;"
                   />
-                  <img
+                  <Image
                     className="uk-position-bottom-left uni-animation-bounce"
                     width="24"
-                    src="../assets/images/objects/circle-03.png"
+                    height="24"
+                    src="/assets/images/objects/circle-03.png"
                     alt="object"
                     style={{ bottom: "-16%", left: "16%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
@@ -116,19 +119,21 @@ const Hero = () => {
                 className="uk-panel uk-width-6-12@m uk-flex-center"
                 data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
               >
-                <img
+                <Image
                   className="uk-position-left uk-text-primary uni-animation-bounce"
                   width="44"
-                  src="../assets/images/objects/bitcoin-01.png"
+                  height="44"
+                  src="/assets/images/objects/bitcoin-01.png"
                   alt="object"
                   // style={{ top: "10%", left: "-20%" }}
                   data-uk-svg=""
                   data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 460;"
                 />
-                <img
+                <Image
                   className="uk-position-right uni-animation-bounce"
                   width="28"
-                  src="../assets/images/objects/x.png"
+                  height="28"
+                  src="/assets/images/objects/x.png"
                   alt="object"
                   style={{ top: "-4%", right: "-8%" }}
                   data-uk-svg=""
@@ -171,12 +176,15 @@ const Hero = () => {
             float: "right",
           }}
         >
-          <img
-            src="../assets/images/artwork/IMG_3033.png"
+          <Image
+            src="/assets/images/artwork/IMG_3033.png"
             alt="Artwork"
             style={{
               height: "100vh",
+              width: "auto",
             }}
+            width="1169"
+            height="1403"
           />
           <div
             style={{

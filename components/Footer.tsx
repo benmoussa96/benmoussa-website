@@ -7,31 +7,35 @@ const Footer = () => {
     <footer className="uni-footer uk-section uk-section-xlarge@m">
       <div className="uk-container">
         <div className="uk-panel">
-          <img
+          <Image
             className="uk-position-top-left uni-animation-bounce"
             width="32"
-            src="../assets/images/objects/ethereum-01.png"
+            src="/assets/images/objects/ethereum-01.png"
             alt="object"
+            height="107"
             style={{ top: "32%", left: "16%" }}
           />
-          <img
+          <Image
             className="uk-position-top-right uni-animation-bounce"
             width="16"
-            src="../assets/images/objects/x.png"
+            height="16"
+            src="/assets/images/objects/x.png"
             alt="object"
             style={{ top: "8%", right: "16%" }}
           />
-          <img
+          <Image
             className="uk-position-bottom-right uni-animation-bounce"
             width="16"
-            src="../assets/images/objects/circle-01.png"
+            height="16"
+            src="/assets/images/objects/circle-01.png"
             alt="object"
             style={{ bottom: "24%", right: "40%" }}
           />
-          <img
+          <Image
             className="uk-position-bottom-left uni-animation-bounce"
             width="24"
-            src="../assets/images/objects/circle-03.png"
+            height="24"
+            src="/assets/images/objects/circle-03.png"
             alt="object"
             style={{ bottom: "-8%", left: "30%" }}
           />
@@ -39,16 +43,18 @@ const Footer = () => {
             <div className="uk-width-xlarge@m">
               <div className="uk-panel">
                 <a href="#" className="uk-logo" data-uk-scroll data-offset="25">
-                  <img
+                  <Image
                     className="uk-hidden dark:uk-visible"
                     width="70"
-                    src="../assets/images/light-medium-2.png"
+                    height="70"
+                    src="/assets/images/light-medium-2.png"
                     alt="benMoussa"
                   />
-                  <img
+                  <Image
                     className="uk-visible dark:uk-hidden"
                     width="70"
-                    src="../assets/images/dark-medium-2.png"
+                    height="70"
+                    src="/assets/images/dark-medium-2.png"
                     alt="benMoussa"
                   />
                 </a>
@@ -116,10 +122,10 @@ const Footer = () => {
               <div>
                 <ul className="uk-subnav uk-subnav-small uk-text-muted uk-flex-center">
                   <li>
-                    <Link href="/privacy">Privacy policy</Link>
+                    <a href="/privacy">Privacy policy</a>
                   </li>
                   <li>
-                    <Link href="/terms">Terms of use</Link>
+                    <a href="/terms">Terms of use</a>
                   </li>
                   <li className="uk-margin-small-left">
                     <a href="#" data-uk-totop="" data-uk-scroll data-offset="25">

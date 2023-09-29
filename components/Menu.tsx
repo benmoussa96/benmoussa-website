@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 import { menu } from "@/constants";
+import Image from "next/image";
 
 const Menu = () => {
   const router = useRouter();
@@ -26,17 +27,19 @@ const Menu = () => {
                   href="/"
                   data-offset="25"
                 >
-                  <img
+                  <Image
                     className="uk-visible dark:uk-hidden"
                     width="120"
-                    src="../assets/images/dark-large.png"
+                    height="120"
+                    src="/assets/images/dark-large.png"
                     alt="The Chain Genius"
                     loading="lazy"
                   />
-                  <img
+                  <Image
                     className="uk-hidden dark:uk-visible"
                     width="120"
-                    src="../assets/images/light-large.png"
+                    height="120"
+                    src="/assets/images/light-large.png"
                     alt="The Chain Genius"
                     loading="lazy"
                   />

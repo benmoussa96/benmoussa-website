@@ -32,9 +32,11 @@ const AboutMe = () => {
                       className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m"
                       data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
                     >
-                      <img
-                        src="../assets/images/features-01.png"
+                      <Image
+                        src="/assets/images/features-01.png"
                         alt="Crafter of quality software"
+                        width="960"
+                        height="689"
                       />
                     </div>
                   </div>
@@ -87,7 +89,12 @@ const AboutMe = () => {
                       className="uk-panel uk-image-middle uk-overflow-hidden uk-radius uk-radius-large@m"
                       data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
                     >
-                      <img src="../assets/images/features-04.png" alt="Blockchain Expert" />
+                      <Image
+                        src="/assets/images/features-04.png"
+                        alt="Blockchain Expert"
+                        width="960"
+                        height="689"
+                      />
                     </div>
                   </div>
                   <div className="uk-flex-first@m">

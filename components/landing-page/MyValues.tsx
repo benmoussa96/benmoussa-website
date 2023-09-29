@@ -90,7 +90,7 @@ const MyValues = () => {
             </div>
             <div className="uk-width-4-12@m">
               <div className="uk-panel uk-overflow-hidden uk-flex-middle">
-                <img src="../assets/images/land3-cta.png" alt="Artwork" />
+                <Image src="/assets/images/land3-cta.png" width="585" height="826" alt="Artwork" />
               </div>
             </div>
             <div className="uk-width-4-12@m">

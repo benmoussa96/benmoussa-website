@@ -129,13 +129,13 @@ const Work = () => {
             className="uni-btn uk-margin-medium-top uk-margin-2xlarge-top@m uk-flex-center"
             data-anime="opacity:[0, 1]; translateY:[-24, 0]; onview: true; delay: 200;"
           >
-            <Link
+            <a
               href="/projects"
               className="uk-button uk-button-small uk-button-large@m uk-button-gradient"
             >
               <span>More projects</span>
               <i className="uk-icon-small unicon-arrow-right uk-text-bold"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

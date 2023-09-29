@@ -6,18 +6,20 @@ const Numbers = () => {
     <div id="uni_numbers" className="uni-numbers uk-section uk-section-large@m">
       <div className="uk-container">
         <div className="uk-panel">
-          <img
+          <Image
             className="uk-position-bottom-left uk-text-secondary uni-animation-delay-large"
             width="32"
-            src="../assets/images/objects/bitcoin-01.png"
+            height="32"
+            src="/assets/images/objects/bitcoin-01.png"
             alt="Object"
             style={{ bottom: "-32%", left: "30%" }}
             data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"
           />
-          <img
+          <Image
             className="uk-position-top-right"
             width="24"
-            src="../assets/images/objects/ethereum-01.png"
+            height="24"
+            src="/assets/images/objects/ethereum-01.png"
             alt="Object"
             style={{ top: "-25%", right: "25%" }}
             data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"

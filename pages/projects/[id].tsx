@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { work } from "@/constants";
 import { useRouter } from "next/router";
 import { InferGetStaticPropsType } from "next";
+import Link from "next/link";
+import Image from "next/image";
 
 interface IProject {
   id: string;
@@ -193,8 +195,10 @@ const Project = () => {
                             <div className="uk-width-auto">
                               <div className="uk-panel uk-overflow-hidden uk-border-circle">
                                 <canvas width="80" height="80"></canvas>
-                                <img
-                                  src="../assets/images/artwork/IMG_3033.png"
+                                <Image
+                                  src="/assets/images/artwork/IMG_3033.png"
+                                  width="1169"
+                                  height="1403"
                                   alt="Ghaieth BEN MOUSSA"
                                   className="uk-cover"
                                   data-uk-cover

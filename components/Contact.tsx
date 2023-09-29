@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Contact = () => {
   const service_id = process.env.EMAILJS_SERVICE_ID;
@@ -153,17 +154,42 @@ const Contact = () => {
                       <div className="uk-card uk-card-small uk-card-large@m">
                         <div className="uk-grid uk-child-width-1-2@m" data-uk-grid="">
                           <div className="uk-panel">
-                            <img
+                            <ul className="uk-list">
+                              <li>
+                                <h2 className="uk-h5 uk-h4@m">Ghaieth BEN MOUSSA</h2>
+                              </li>
+                              <li>
+                                <a
+                                  href="mailto:benmoussa@thechaingenius.com"
+                                  className="uk-link-reset"
+                                >
+                                  benmoussa@thechaingenius.com
+                                </a>
+                              </li>
+                              <li>
+                                <a href="tel:0021696314176" className="uk-link-reset">
+                                  +1 (505) 302 1977
+                                </a>
+                              </li>
+                              <li>2105 Vista Oeste NW, Suite E #2091 Albuquerque, NM 87120</li>
+                            </ul>
+                          </div>
+                          <div className="uk-panel">
+                            <Image
                               className="uk-hidden dark:uk-visible"
-                              width="195"
-                              src="../assets/images/light-large.png"
+                              width="1416"
+                              height="410"
+                              src="/assets/images/light-large.png"
                               alt="benMoussa"
+                              style={{ height: "51px", width: "178px" }}
                             />
-                            <img
+                            <Image
                               className="uk-visible dark:uk-hidden"
-                              width="195"
-                              src="../assets/images/dark-large.png"
+                              width="1416"
+                              height="410"
+                              src="/assets/images/dark-large.png"
                               alt="benMoussa"
+                              style={{ height: "51px", width: "178px" }}
                             />
 
                             <p>
@@ -217,27 +243,6 @@ const Contact = () => {
                                   <i className="uk-icon uk-icon-small unicon-logo-instagram"></i>
                                 </a>
                               </li>
-                            </ul>
-                          </div>
-                          <div className="uk-panel">
-                            <ul className="uk-list">
-                              <li>
-                                <h2 className="uk-h5 uk-h4@m">Ghaieth BEN MOUSSA</h2>
-                              </li>
-                              <li>
-                                <a
-                                  href="mailto:benmoussa@thechaingenius.com"
-                                  className="uk-link-reset"
-                                >
-                                  benmoussa@thechaingenius.com
-                                </a>
-                              </li>
-                              <li>
-                                <a href="tel:0021696314176" className="uk-link-reset">
-                                  +1 (505) 302 1977
-                                </a>
-                              </li>
-                              <li>2105 Vista Oeste NW, Suite E #2091 Albuquerque, NM 87120</li>
                             </ul>
                           </div>
                         </div>

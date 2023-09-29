@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const CallToAction = () => {
   return (
     <div id="cta" className="uni-cta uk-section uk-section-2xlarge@m uk-panel uk-overflow-hidden">
-      <img
+      <Image
         className="uk-cover uk-opacity-10"
         data-uk-cover
-        src="../assets/images/collection-cta.png"
+        src="/assets/images/collection-cta.png"
         alt="arrow"
+        width="1920"
+        height="544"
       />
       <div className="uk-container">
         <div className="uk-card uk-flex-center uk-text-center">
@@ -16,31 +19,35 @@ const CallToAction = () => {
             className="uk-panel uk-width-xlarge@m uk-position-z-index"
             data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
           >
-            <img
+            <Image
               className="uk-position-top-left uni-animation-bounce"
               width="24"
-              src="../assets/images/objects/circle-01.png"
+              height="24"
+              src="/assets/images/objects/circle-01.png"
               alt="Object"
               style={{ top: "0%", left: "-16%" }}
             />
-            <img
+            <Image
               className="uk-position-bottom-right uni-animation-bounce"
               width="24"
-              src="../assets/images/objects/x.png"
+              height="24"
+              src="/assets/images/objects/x.png"
               alt="Object"
               style={{ bottom: "16%", right: "-8%" }}
             />
-            <img
+            <Image
               className="uk-position-top-right uni-animation-bounce"
               width="40"
-              src="../assets/images/objects/ethereum-02.png"
+              height="40"
+              src="/assets/images/objects/ethereum-02.png"
               alt="Object"
               style={{ top: "0%", right: "-16%" }}
             />
-            <img
+            <Image
               className="uk-position-bottom-left uni-animation-bounce"
               width="48"
-              src="../assets/images/objects/bitcoin-01.png"
+              height="48"
+              src="/assets/images/objects/bitcoin-01.png"
               alt="Object"
               style={{ bottom: "16%", left: "-8%" }}
             />

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { work } from "@/constants";
+import Link from "next/link";
 
 interface IProject {
   id: string;

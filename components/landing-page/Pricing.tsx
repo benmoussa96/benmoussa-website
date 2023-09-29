@@ -1,6 +1,7 @@
 import React from "react";
 
 import { pricing } from "@/constants";
+import Link from "next/link";
 
 const Pricing = () => {
   return (

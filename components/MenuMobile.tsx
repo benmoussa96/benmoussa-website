@@ -45,15 +45,15 @@ const MenuMobile = () => {
                   {menu.map((item) =>
                     router.pathname === "/" ? (
                       <li key={item.id}>
-                        <Link href={item.href} data-uk-scroll data-offset="25" onClick={close}>
+                        <a href={item.href} data-uk-scroll data-offset="25" onClick={close}>
                           {item.label}
-                        </Link>
+                        </a>
                       </li>
                     ) : (
                       <li key={item.id}>
-                        <Link href={item.href} onClick={close}>
+                        <a href={item.href} onClick={close}>
                           {item.label}
-                        </Link>
+                        </a>
                       </li>
                     )
                   )}
