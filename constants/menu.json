@@ -1,0 +1,17 @@
+[
+  {
+    "id": "about_me",
+    "label": "About Me",
+    "href": "/#about_me"
+  },
+  {
+    "id": "expertise",
+    "label": "Expertise",
+    "href": "/#expertise"
+  },
+  {
+    "id": "work",
+    "label": "Previous Work",
+    "href": "/#work"
+  }
+]

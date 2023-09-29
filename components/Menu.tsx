@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
+import { menu } from "@/constants";
+
 const Menu = () => {
   const router = useRouter();
 
@@ -47,21 +49,19 @@ const Menu = () => {
                   data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80"
                   data-uk-navbar-bound=""
                 >
-                  <li>
-                    <a href="/#about_me" data-uk-scroll data-offset="25">
-                      About Me
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#expertise" data-uk-scroll data-offset="25">
-                      Expertise
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#work" data-uk-scroll data-offset="25">
-                      Previous Work
-                    </a>
-                  </li>
+                  {menu.map((item) =>
+                    router.pathname === "/" ? (
+                      <li key={item.id}>
+                        <a href={item.href} data-uk-scroll data-offset="25">
+                          {item.label}
+                        </a>
+                      </li>
+                    ) : (
+                      <li key={item.id}>
+                        <a href={item.href}>{item.label}</a>
+                      </li>
+                    )
+                  )}
                 </ul>
                 <div className="uk-navbar-item">
                   <ul className="uk-subnav uk-subnav-small uk-visible@m">
@@ -97,7 +97,7 @@ const Menu = () => {
                     className="uk-button uk-button-medium@m uk-button-icon uk-hidden@m uk-margin-small-right"
                     data-uk-toggle=""
                   >
-                    <i className="uk-icon unicon-chat"></i>
+                    <i className="uk-icon unicon-forum"></i>
                   </a>
                   <a
                     href="#uni_mobile_menu"

@@ -1,7 +1,11 @@
-import Link from "next/link";
 import React from "react";
-import { work } from "@/constants";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { menu, work } from "@/constants";
+
 const MenuMobile = () => {
+  const router = useRouter();
+
   const close = () => {
     UIkit.offcanvas("#uni_mobile_menu").hide();
   };
@@ -38,21 +42,21 @@ const MenuMobile = () => {
               <div className="uk-panel">
                 <ul className="uk-nav uk-nav-default">
                   <li className="uk-nav-header">Home</li>
-                  <li>
-                    <Link href="/#about_me" data-uk-scroll data-offset="25" onClick={close}>
-                      About Me
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/#expertise" data-uk-scroll data-offset="25" onClick={close}>
-                      Expertise
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/#work" data-uk-scroll data-offset="25" onClick={close}>
-                      Previous Work
-                    </Link>
-                  </li>
+                  {menu.map((item) =>
+                    router.pathname === "/" ? (
+                      <li key={item.id}>
+                        <Link href={item.href} data-uk-scroll data-offset="25" onClick={close}>
+                          {item.label}
+                        </Link>
+                      </li>
+                    ) : (
+                      <li key={item.id}>
+                        <Link href={item.href} onClick={close}>
+                          {item.label}
+                        </Link>
+                      </li>
+                    )
+                  )}
                   {/* ----------------------------------------- */}
                   <li className="uk-nav-header">Projects</li>
                   {work.map((project) => (

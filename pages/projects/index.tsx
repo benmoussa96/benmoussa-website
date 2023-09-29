@@ -89,7 +89,7 @@ const Projects = () => {
                         </p>
                       </div>
                       <div
-                        className="uk-grid-xsmall uk-flex-middle uk-margin-top uk-grid"
+                        className="uk-grid-xsmall uk-flex-middle uk-margin-top uk-grid uk-visible@m"
                         data-uk-grid
                       >
                         <div className="uk-width-auto">
