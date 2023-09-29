@@ -9,6 +9,7 @@ export default function Document() {
       className="uk-background-white dark:uk-background-gray-100 dark:uk-text-gray-20 uk-dark"
     >
       <Head>
+        <title>The Chain Genius</title>
         <meta charSet="UTF-8" />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
         <meta name="title" content="theChainGenius" />
