@@ -22,7 +22,7 @@ const Menu = () => {
                 <a
                   className="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
                   href="/"
-                  data-uk-scroll={router.pathname === "/"}
+                  data-uk-scroll
                 >
                   <img
                     className="uk-visible dark:uk-hidden"
