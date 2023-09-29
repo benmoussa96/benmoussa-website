@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { work } from "@/constants";
 import { useRouter } from "next/router";
+import { InferGetStaticPropsType } from "next";
 
 interface IProject {
   id: string;
@@ -283,10 +284,23 @@ const Project = () => {
   );
 };
 
-export async function getServerSideProps(context: any) {
+export const getStaticPaths = async () => {
+  const paths = work.map((project) => {
+    return {
+      params: { id: project.id },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps = async (context: any) => {
   return {
     props: {}, // will be passed to the page component as props
   };
-}
+};
 
 export default Project;

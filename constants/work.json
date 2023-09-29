@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "kayros-exchange",
     "name": "Kayros Exchange",
     "company": "KayrosGames",
     "website": "https://www.kayros.games/",
@@ -15,7 +15,7 @@
     "featured": true
   },
   {
-    "id": "2",
+    "id": "decentralise-impact",
     "name": "Decentralise Impact",
     "company": "DarBlockchain",
     "website": "https://darblockchain.io/",
@@ -29,7 +29,7 @@
     "tags": ["Ethereum", "Crypto", "DigitalAssets"]
   },
   {
-    "id": "3",
+    "id": "helium",
     "name": "Helium",
     "company": "WeCraft",
     "website": "https://wecraft.tn/",
