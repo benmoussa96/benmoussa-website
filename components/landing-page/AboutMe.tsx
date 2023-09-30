@@ -120,7 +120,10 @@ const AboutMe = () => {
                       >
                         <div>
                           <div className="uk-panel">
-                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                            <div
+                              className="uk-grid uk-grid-xsmall uk-grid-small@m uk-flex-top@s uk-flex-middle"
+                              data-uk-grid=""
+                            >
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
                                   <i className="uk-icon-small uk-icon-medium@m unicon-wikis uk-text-white"></i>
@@ -136,7 +139,10 @@ const AboutMe = () => {
                         </div>
                         <div>
                           <div className="uk-panel">
-                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                            <div
+                              className="uk-grid uk-grid-xsmall uk-grid-small@m uk-flex-top@s uk-flex-middle"
+                              data-uk-grid=""
+                            >
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
                                   <i className="uk-icon-small uk-icon-medium@m unicon-code uk-text-white"></i>
@@ -152,7 +158,10 @@ const AboutMe = () => {
                         </div>
                         <div>
                           <div className="uk-panel">
-                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                            <div
+                              className="uk-grid uk-grid-xsmall uk-grid-small@m uk-flex-top@s uk-flex-middle"
+                              data-uk-grid=""
+                            >
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
                                   <i className="uk-icon-small uk-icon-medium@m unicon-security uk-text-white"></i>
@@ -168,7 +177,10 @@ const AboutMe = () => {
                         </div>
                         <div>
                           <div className="uk-panel">
-                            <div className="uk-grid uk-grid-xsmall uk-grid-small@m" data-uk-grid="">
+                            <div
+                              className="uk-grid uk-grid-xsmall uk-grid-small@m uk-flex-top@s uk-flex-middle"
+                              data-uk-grid=""
+                            >
                               <div>
                                 <div className="uk-card uk-card-xsmall uk-radius-medium uk-radius-large@m uk-background-gradient uk-flex-middle uk-flex-center">
                                   <i className="uk-icon-small uk-icon-medium@m unicon-money uk-text-white"></i>
