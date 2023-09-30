@@ -89,7 +89,7 @@ const Project = () => {
               <figure className="uk-margin-large-top@m">
                 <img
                   className="uk-radius"
-                  src={imagesPath + project?.image1}
+                  src={imagesPath + project?.image3}
                   alt="Image caption"
                   loading="lazy"
                   style={{ verticalAlign: "top" }}
@@ -113,7 +113,7 @@ const Project = () => {
               <figure className="uk-margin-large-top@m">
                 <img
                   className="uk-radius"
-                  src={imagesPath + project?.image3}
+                  src={imagesPath + project?.image1}
                   alt="Image caption"
                   loading="lazy"
                   style={{ verticalAlign: "top" }}

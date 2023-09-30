@@ -51,7 +51,7 @@ const Projects = () => {
                     <div className="featured-image uk-card-media-left uk-panel uk-overflow-hidden uk-radius">
                       <canvas width="825" height="480"></canvas>
                       <img
-                        src={imagesPath + featuredProject?.image1}
+                        src={imagesPath + featuredProject?.image2}
                         alt={featuredProject?.name}
                         className="uk-cover"
                         data-uk-cover

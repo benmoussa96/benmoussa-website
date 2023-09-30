@@ -24,10 +24,8 @@ declare global {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
   useEffect(() => {
     document.getElementById("__next")?.classList.add("uni-body");
-    console.log(router);
   });
   return (
     <>

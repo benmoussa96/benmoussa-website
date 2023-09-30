@@ -90,7 +90,7 @@ const Expertise = () => {
             {/* <!-- Pagination --> */}
             <div
               className="swiper-pagination swiper-pagination-fraction"
-              style={{ transform: "translate(0%, 48px);" }}
+              style={{ transform: "translate(0%, 48px)" }}
             ></div>
           </div>
 
