@@ -3,14 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Contact = () => {
-  const service_id = process.env.EMAILJS_SERVICE_ID;
-  const template_id = process.env.EMAILJS_TEMPLATE_ID;
-  const user_id = process.env.EMAILJS_PUBLIC_KEY;
+  // const service_id = process.env.EMAILJS_SERVICE_ID;
+  // const template_id = process.env.EMAILJS_TEMPLATE_ID;
+  // const user_id = process.env.EMAILJS_PUBLIC_KEY;
 
-  // const [fromName, setFromName] = useState("");
-  // const [fromEmail, setFromEmail] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     from_name: "",
     from_email: "",

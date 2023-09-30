@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 
 import { register } from "swiper/element/bundle";
 import { useRouter } from "next/router";
+import { Head } from "next/document";
 register();
 
 declare global {

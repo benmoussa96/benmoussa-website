@@ -135,7 +135,7 @@ const Hero = () => {
                   height="28"
                   src="/assets/images/objects/x.png"
                   alt="object"
-                  style={{ top: "-4%", right: "-8%" }}
+                  style={{ top: "-4%" }}
                   data-uk-svg=""
                   data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 480;"
                 />
@@ -143,22 +143,18 @@ const Hero = () => {
                   className="uk-position-right uk-opacity-10 uni-animation-bounce"
                   width="300"
                   src="../assets/images/blob-dashed.svg"
-                  alt="Blog dashed"
-                  style={{ top: "-10%", right: "16%" }}
+                  alt="Blob dashed"
+                  style={{ top: "-10%", right: "36%" }}
                   data-uk-svg=""
                 />
-                <svg
-                  style={{ top: "-20%" }}
+                <img
                   className="uk-position-right uk-opacity-30 uni-animation-bounce"
-                  viewBox="0 0 200 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="#F796FF"
-                    d="M47.5,-67.2C55.9,-59.3,53.2,-37.9,56.7,-20.1C60.2,-2.3,69.9,11.8,70.8,27.3C71.7,42.9,63.8,59.9,50.6,64.4C37.3,68.9,18.6,60.8,-0.3,61.2C-19.3,61.6,-38.6,70.7,-53.5,66.7C-68.4,62.8,-78.9,45.9,-78.8,29.5C-78.7,13.2,-67.9,-2.7,-59.8,-16.8C-51.6,-31,-46,-43.3,-36.5,-50.9C-27,-58.4,-13.5,-61.1,3,-65.2C19.6,-69.4,39.1,-75.1,47.5,-67.2Z"
-                    transform="translate(100 100)"
-                  />
-                </svg>
+                  width="300"
+                  src="../assets/images/blob-fill.svg"
+                  alt="Blob fill"
+                  style={{ top: "-20%", right: "16%" }}
+                  data-uk-svg=""
+                />
 
                 {/* <div className="uk-grid uk-grid-xsmall" data-uk-grid="masonry: true;"></div> */}
               </div>
