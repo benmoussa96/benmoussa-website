@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <div id="about_me" className="uni-about uk-section uk-section-xlarge@m uk-panel">
+    <div
+      id="about_me"
+      className="uni-about uk-section uk-section-xlarge@m uk-panel uk-overflow-hidden"
+    >
       <div className="uk-container">
         <header
           className="uk-grid-xsmall uk-flex-center uk-flex-middle uk-grid"

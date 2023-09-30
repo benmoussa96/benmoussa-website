@@ -7,16 +7,16 @@
 /// <reference path="./app-head.js"/>
 
 // Scrollbar width
-// {
-//   const updateScrollWidth = () => {
-//     document.documentElement.style.setProperty(
-//       "--body-scroll-width",
-//       window.innerWidth - document.documentElement.clientWidth + "px"
-//     );
-//   };
-//   window.addEventListener("resize", updateScrollWidth);
-//   updateScrollWidth();
-// }
+{
+  const updateScrollWidth = () => {
+    document.documentElement.style.setProperty(
+      "--body-scroll-width",
+      window.innerWidth - document.documentElement.clientWidth + "px"
+    );
+  };
+  window.addEventListener("resize", updateScrollWidth);
+  updateScrollWidth();
+}
 
 // Initiat Feather Icons
 feather.replace({ class: "icon" });
