@@ -57,10 +57,10 @@ const Hero = () => {
         ></div>
       </div>
       <div className="uk-panel uk-position-z-index" data-uk-height-viewport="">
-        <div className="uk-container">
+        <div className="uk-container ">
           <div id="hero_grid" className="uk-panel">
             <div
-              className="uk-grid uk-grid-2xlarge uk-flex-middle uk-flex-between uk-overflow-hidden"
+              className="uk-grid uk-grid-2xlarge uk-flex-middle uk-flex-between "
               data-uk-grid=""
               data-uk-height-viewport="offset-top: true; offset-bottom: 20;"
             >
@@ -167,7 +167,7 @@ const Hero = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
           style={{
             position: "absolute",
-            bottom: "30px",
+            bottom: "0px",
             right: "0px",
             float: "right",
           }}
