@@ -23,7 +23,7 @@ const Hero = () => {
   return (
     <div
       id="uni_hero"
-      className="uni-hero uk-section uk-section-xlarge uk-panel uk-overflow-hidden"
+      className="uni-hero uk-section uk-section-xlarge@m uk-panel uk-overflow-hidden"
     >
       <div
         className="uk-position-top uk-position-z-index-negative uk-overflow-hidden uk-blend-overlay"
@@ -96,10 +96,10 @@ const Hero = () => {
                     style={{ bottom: "-16%", left: "16%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
                   />
-                  <h2 className="uk-h2 uk-heading-d3@m uk-margin-small uk-margin@m">
+                  <h2 className="uk-h3 uk-h2@s uk-heading-d2@m uk-margin-small uk-margin@m">
                     Boost your blockchain applications
                   </h2>
-                  <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
+                  <p className="uk-text-xlarge@m uk-width-xlarge@m uk-text-muted">
                     Hi, I&#39;m Ben Moussa, software engineer & blockchain expert,{" "}
                     <span className="uk-text-gradient">builder of decentralised solutions</span> for
                     the decentralised future.
@@ -167,7 +167,7 @@ const Hero = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
           style={{
             position: "absolute",
-            bottom: "-20px",
+            bottom: "30px",
             right: "0px",
             float: "right",
           }}
