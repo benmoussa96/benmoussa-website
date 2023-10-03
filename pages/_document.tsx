@@ -10,10 +10,16 @@ export default function Document() {
     >
       <Head>
         <title>The Chain Genius</title>
+        <meta property="og:url" content="theChainGenius.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="The Chain Genius" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="og:description" content="Builder Of The Decentralized Future" />
+        <meta property="og:image" content="/assets/images/artwork/preview.png" />
         <meta charSet="UTF-8" />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
-        <meta name="title" content="theChainGenius" />
-        <meta name="description" content="theChainGenius - Building The Decentralized Future" />
+        <meta name="title" content="The Chain Genius" />
+        <meta name="description" content="The Chain Genius - Builder Of The Decentralized Future" />
         <meta name="theme-color" content="#741ff5" />
         <link rel="icon" href="/assets/images/icons/dark-icon-grey.png" />
         <link rel="apple-touch-icon" href="/assets/images/icons/dark-icon-outline.png"></link>
