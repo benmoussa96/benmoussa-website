@@ -167,7 +167,7 @@ const Hero = () => {
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
           style={{
             position: "absolute",
-            bottom: "0px",
+            bottom: "-35px",
             right: "0px",
             float: "right",
           }}

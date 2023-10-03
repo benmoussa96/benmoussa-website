@@ -5,7 +5,7 @@ import Link from "next/link";
 const Clients = () => {
   return (
     <div
-      className="uni-brands uk-padding-1xlarge-top uk-padding-medium-bottom uk-padding-remove-top@m uk-padding-xlarge-bottom@m uk-panel uk-overflow-hidden"
+      className="uni-brands uk-padding-2xlarge-top uk-padding-medium-bottom uk-padding-remove-top@m uk-padding-xlarge-bottom@m uk-panel uk-overflow-hidden"
       data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;"
     >
       <div className="uk-container uk-container-small">
