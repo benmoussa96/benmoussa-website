@@ -56,7 +56,7 @@ const Hero = () => {
           data-uk-img=""
         ></div>
       </div>
-      <div className="uk-panel uk-position-z-index" style={{ height: "calc(100vh - 80px)" }}>
+      <div className="uk-panel uk-position-z-index" data-uk-height-viewport="">
         <div className="uk-container">
           <div id="hero_grid" className="uk-panel">
             <div
@@ -106,7 +106,7 @@ const Hero = () => {
                   </p>
                   <a
                     href="#uni_contact"
-                    className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
+                    className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top uk-visible@m"
                     data-uk-toggle=""
                   >
                     <span>We Should Chat</span>
@@ -163,11 +163,28 @@ const Hero = () => {
           </div>
         </div>
         <div
+          className="uk-hidden@m"
+          data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
+          style={{
+            position: "absolute",
+            bottom: "-20px",
+            right: "0px",
+            float: "right",
+          }}
+        >
+          <Image
+            src="/assets/images/artwork/IMG_3033.png"
+            alt="Artwork"
+            width="1169"
+            height="1403"
+          />
+        </div>
+        <div
           className="uk-visible@m"
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
           style={{
             position: "absolute",
-            bottom: "0px",
+            bottom: "80px",
             right: "0px",
             float: "right",
           }}
