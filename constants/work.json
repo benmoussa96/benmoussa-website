@@ -10,7 +10,7 @@
     "image3": "apps/kayros/Screenshot-03.png",
     "date": "September 2022",
     "category": "Exchange",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "description": "The Kayros Exchange is a user-friendly and powerful application designed to help cryptocurrency investors efficiently manage their digital asset portfolios. Whether you're a seasoned trader or just starting in the world of cryptocurrencies, Kayros offers essential tools and features to keep you informed and in control of your investments.",
     "tags": ["Ethereum", "Crypto", "DigitalAssets"],
     "featured": true
   },
@@ -25,7 +25,7 @@
     "image3": "apps/di/Screenshot-03.png",
     "date": "February 2022",
     "category": "DAO",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "description": "Decentralise Impact (D.I.) is a DAO designed to empower and nurture emerging startups within the blockchain ecosystem. Built on the principles of decentralization, D.I. operates as a community-driven platform that aims to revolutionize the way startups in the blockchain space receive support and resources.",
     "tags": ["Ethereum", "Crypto", "DigitalAssets"]
   },
   {
@@ -39,7 +39,7 @@
     "image3": "apps/helium/Screenshot-03.png",
     "date": "January 2020",
     "category": "SaaS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "description": "Helium is a cutting-edge Software as a Service (SaaS) application designed to streamline and simplify the management of employee work hours. With a user-friendly interface and robust features, Helium empowers businesses of all sizes to efficiently track, monitor, and optimize their workforce's time.",
     "tags": ["Entreprise", "EventDriven", "Microservices"]
   }
 ]

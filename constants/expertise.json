@@ -4,7 +4,7 @@
     "level": "★★★★★",
     "name": "Smart Contracts",
     "description": "I leverage my extensive understanding of Ethereum and EVM protocols to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
-    "skills": ["Solidity", "Cryptography", "Gas Optimization"]
+    "skills": ["Solidity", "Testing", "Gas Optimization"]
   },
   {
     "id": "2",
@@ -17,15 +17,15 @@
     "id": "3",
     "level": "★★★★★",
     "name": "Front End",
-    "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly responsive websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
+    "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly performant websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
     "skills": ["Next JS (React)", "Redux", "UI/UX"]
   },
   {
     "id": "4",
     "level": "★★★★☆",
     "name": "DeFi",
-    "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi by analyzing market dynamics, anticipating risks, and optimizing financial strategies.",
-    "skills": ["DEXs", "Lending, Staking", "Alorithmic Trading"]
+    "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi by analyzing market dynamics, optimizing yield strategies and anticipating risks.",
+    "skills": ["Yield Farming", "Lending", "Liquid Staking"]
   },
   {
     "id": "5",
