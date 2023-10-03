@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="uk-container">
           <div id="hero_grid" className="uk-panel">
             <div
-              className="uk-grid uk-grid-2xlarge uk-flex-middle uk-flex-between"
+              className="uk-grid uk-grid-2xlarge uk-flex-middle uk-flex-between uk-overflow-hidden"
               data-uk-grid=""
               data-uk-height-viewport="offset-top: true; offset-bottom: 20;"
             >
