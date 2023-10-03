@@ -99,7 +99,7 @@ const Hero = () => {
                   <h2 className="uk-h3 uk-h2@s uk-heading-d2@m uk-margin-small uk-margin@m">
                     Boost your blockchain applications
                   </h2>
-                  <p className="uk-text-xlarge@m uk-width-xlarge@m uk-text-muted">
+                  <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
                     Hi, I&#39;m Ben Moussa, software engineer & blockchain expert,{" "}
                     <span className="uk-text-gradient">builder of decentralised solutions</span> for
                     the decentralised future.
