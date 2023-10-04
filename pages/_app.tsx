@@ -28,19 +28,19 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     document.getElementById("__next")?.classList.add("uni-body");
   });
-  useEffect(() => {
-    document.onreadystatechange = function () {
-      const body = document.querySelector("body");
-      const loader = document.getElementById("globalLoader");
-      if (document.readyState !== "complete") {
-        if (body) body.style.visibility = "hidden";
-        if (loader) loader.style.visibility = "visible";
-      } else {
-        if (loader) loader.style.display = "none";
-        if (body) body.style.visibility = "visible";
-      }
-    };
-  }, []);
+  // useEffect(() => {
+  //   document.onreadystatechange = function () {
+  //     const body = document.querySelector("body");
+  //     const loader = document.getElementById("globalLoader");
+  //     if (document.readyState !== "complete") {
+  //       if (body) body.style.visibility = "hidden";
+  //       if (loader) loader.style.visibility = "visible";
+  //     } else {
+  //       if (loader) loader.style.display = "none";
+  //       if (body) body.style.visibility = "visible";
+  //     }
+  //   };
+  // }, []);
   return (
     <>
       <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />

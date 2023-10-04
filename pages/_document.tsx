@@ -24,7 +24,7 @@ export default function Document() {
         <meta property="og:description" content="Builder Of The Decentralized Future" />
         <meta property="og:image" content="/assets/images/artwork/preview.png" />
         <meta name="twitter:card" content="summary" />
-        <style>{loader}</style>
+        {/* <style>{loader}</style> */}
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
@@ -59,12 +59,12 @@ export default function Document() {
         />
       </Head>
       <body>
-        <div id={"globalLoader"}>
+        {/* <div id={"globalLoader"}>
           <div className="loader">
             <div />
             <div />
           </div>
-        </div>
+        </div> */}
         <Main />
         <NextScript />
       </body>

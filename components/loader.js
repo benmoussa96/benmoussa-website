@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: #fff;
     display: flex;
-    left: 0,
+    left: 0;
     right: 0;
     width: 100%;
     height: 100%;
