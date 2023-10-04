@@ -71,7 +71,7 @@ const AboutMe = () => {
                         </div>
                         <div>
                           <div className="uk-panel">
-                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">300k+</h5>
+                            <h5 className="uk-h4 uk-h2@m uk-margin-xsmall">150k+</h5>
                             <span className="uk-text-small@m">Lines of Code Delivered</span>
                           </div>
                         </div>

@@ -190,7 +190,7 @@ const Contact = () => {
 
                             <p>
                               We only have one chance to make a first impression, let&#39;s make it
-                              an amazing one.
+                              a good one.
                             </p>
 
                             <ul className="uk-subnav uk-subnav-small uk-text-gray-70 dark:uk-text-gray-40">
