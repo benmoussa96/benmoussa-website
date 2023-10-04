@@ -29,10 +29,17 @@ export default function App({ Component, pageProps }: AppProps) {
     document.getElementById("__next")?.classList.add("uni-body");
   });
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    document.onreadystatechange = function () {
+      const body = document.querySelector("body");
       const loader = document.getElementById("globalLoader");
-      if (loader) loader.style.display = "none";
-    }
+      if (document.readyState !== "complete") {
+        if (body) body.style.visibility = "hidden";
+        if (loader) loader.style.visibility = "visible";
+      } else {
+        if (loader) loader.style.display = "none";
+        if (body) body.style.visibility = "visible";
+      }
+    };
   }, []);
   return (
     <>
