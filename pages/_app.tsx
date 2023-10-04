@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 
@@ -28,6 +28,12 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     document.getElementById("__next")?.classList.add("uni-body");
   });
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const loader = document.getElementById("globalLoader");
+      if (loader) loader.style.display = "none";
+    }
+  }, []);
   return (
     <>
       <Script src="/assets/js/jquery.min.js" strategy="beforeInteractive" />
@@ -48,7 +54,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <DarkModeToggle />
       <MenuMobile />
       <Contact />
-
       <div className="wrap">
         <Menu />
         <Component {...pageProps} />
