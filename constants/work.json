@@ -23,10 +23,11 @@
     "image1": "apps/di/Screenshot-04.png",
     "image2": "apps/di/Screenshot-05.png",
     "image3": "apps/di/Screenshot-03.png",
-    "date": "February 2022",
+    "date": "February 2021",
     "category": "DAO",
     "description": "Decentralise Impact (D.I.) is a DAO designed to empower and nurture emerging startups within the blockchain ecosystem. Built on the principles of decentralization, D.I. operates as a community-driven platform that aims to revolutionize the way startups in the blockchain space receive support and resources.",
-    "tags": ["Ethereum", "Crypto", "DigitalAssets"]
+    "tags": ["Ethereum", "Crypto", "DigitalAssets"],
+    "featured": false
   },
   {
     "id": "helium",
@@ -40,6 +41,7 @@
     "date": "January 2020",
     "category": "SaaS",
     "description": "Helium is a cutting-edge Software as a Service (SaaS) application designed to streamline and simplify the management of employee work hours. With a user-friendly interface and robust features, Helium empowers businesses of all sizes to efficiently track, monitor, and optimize their workforce's time.",
-    "tags": ["Entreprise", "EventDriven", "Microservices"]
+    "tags": ["Entreprise", "EventDriven", "Microservices"],
+    "featured": false
   }
 ]

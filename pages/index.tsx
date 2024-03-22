@@ -17,7 +17,7 @@ export default function Home() {
       <Divider />
 
       <AboutMe />
-      <MyValues />
+      {/* <MyValues /> */}
       <Divider />
 
       <Expertise />

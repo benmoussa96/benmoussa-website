@@ -51,10 +51,10 @@ const AboutMe = () => {
                       <span className="uk-text-overline uk-text-gradient">Young Craftsman</span>
                       <h3 className="uk-h3 uk-h1@m">Crafter of quality software</h3>
                       <p className="uk-text-large@m">
-                        You can imagine anything tech-related, no matter how complex it may be — and
-                        i&#39;ll bring your concept to life, exactly as you think it should look and
-                        work. From user-facing decentralised apps to full-blown cross-platform
-                        enterprise ecosystems — you can send any project my way.
+                        You can imagine anything blockchain-related, no matter how complex it may be
+                        — and i&#39;ll bring your concept to life, exactly as you think it should
+                        look and work. From user-facing decentralised apps to full-blown
+                        cross-platform enterprise ecosystems — you can send any project my way.
                       </p>
                       <div
                         className="uk-grid uk-grid-large@m uk-grid-match uk-child-width-1-2 uk-margin-large-top@m"

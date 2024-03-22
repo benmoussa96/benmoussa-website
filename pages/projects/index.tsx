@@ -89,7 +89,7 @@ const Projects = () => {
                           {featuredProject?.description}
                         </p>
                       </div>
-                      <div
+                      {/* <div
                         className="uk-grid-xsmall uk-flex-middle uk-margin-top uk-grid uk-visible@m"
                         data-uk-grid
                       >
@@ -115,7 +115,7 @@ const Projects = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

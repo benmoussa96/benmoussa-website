@@ -138,7 +138,7 @@ const Footer = () => {
                 <p className="uk-text-muted">
                   Built with ❤️ by The Chain Genius©
                   <br />
-                  2023 • All rights reserved
+                  2024 • All rights reserved
                 </p>
               </div>
             </div>
