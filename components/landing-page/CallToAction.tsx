@@ -23,7 +23,7 @@ const CallToAction = () => {
               className="uk-position-top-left uni-animation-bounce"
               width="24"
               height="24"
-              src="/assets/images/objects/circle-01.png"
+              src="/assets/images/objects/circle-01.webp"
               alt="Object"
               style={{ top: "0%", left: "-16%" }}
             />
@@ -31,7 +31,7 @@ const CallToAction = () => {
               className="uk-position-bottom-right uni-animation-bounce"
               width="24"
               height="24"
-              src="/assets/images/objects/x.png"
+              src="/assets/images/objects/x.webp"
               alt="Object"
               style={{ bottom: "16%", right: "-8%" }}
             />
@@ -39,7 +39,7 @@ const CallToAction = () => {
               className="uk-position-top-right uni-animation-bounce"
               width="40"
               height="40"
-              src="/assets/images/objects/ethereum-02.png"
+              src="/assets/images/objects/ethereum-02.webp"
               alt="Object"
               style={{ top: "0%", right: "-16%" }}
             />
@@ -47,7 +47,7 @@ const CallToAction = () => {
               className="uk-position-bottom-left uni-animation-bounce"
               width="48"
               height="48"
-              src="/assets/images/objects/bitcoin-01.png"
+              src="/assets/images/objects/bitcoin-01.webp"
               alt="Object"
               style={{ bottom: "16%", left: "-8%" }}
             />

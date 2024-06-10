@@ -73,7 +73,7 @@ const Hero = () => {
                     className="uk-position-top-left uni-animation-bounce"
                     width="44"
                     height="44"
-                    src="/assets/images/objects/ethereum-01.png"
+                    src="/assets/images/objects/ethereum-01.webp"
                     alt="object"
                     style={{ top: "-20%", left: "50%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
@@ -82,7 +82,7 @@ const Hero = () => {
                     className="uk-position-left uni-animation-bounce"
                     width="16"
                     height="16"
-                    src="/assets/images/objects/circle-01.png"
+                    src="/assets/images/objects/circle-01.webp"
                     alt="object"
                     style={{ top: "16%", left: "-16%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 420;"
@@ -91,7 +91,7 @@ const Hero = () => {
                     className="uk-position-bottom-left uni-animation-bounce"
                     width="24"
                     height="24"
-                    src="/assets/images/objects/circle-03.png"
+                    src="/assets/images/objects/circle-03.webp"
                     alt="object"
                     style={{ bottom: "-16%", left: "16%" }}
                     data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
@@ -123,7 +123,7 @@ const Hero = () => {
                   className="uk-position-left uk-text-primary uni-animation-bounce"
                   width="44"
                   height="44"
-                  src="/assets/images/objects/bitcoin-01.png"
+                  src="/assets/images/objects/bitcoin-01.webp"
                   alt="object"
                   // style={{ top: "10%", left: "-20%" }}
                   data-uk-svg=""
@@ -133,7 +133,7 @@ const Hero = () => {
                   className="uk-position-right uni-animation-bounce"
                   width="28"
                   height="28"
-                  src="/assets/images/objects/x.png"
+                  src="/assets/images/objects/x.webp"
                   alt="object"
                   style={{ top: "-4%" }}
                   data-uk-svg=""

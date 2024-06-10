@@ -10,7 +10,7 @@ const Numbers = () => {
             className="uk-position-bottom-left uk-text-secondary uni-animation-delay-large"
             width="32"
             height="32"
-            src="/assets/images/objects/bitcoin-01.png"
+            src="/assets/images/objects/bitcoin-01.webp"
             alt="Object"
             style={{ bottom: "-32%", left: "30%" }}
             data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"
@@ -19,7 +19,7 @@ const Numbers = () => {
             className="uk-position-top-right"
             width="24"
             height="24"
-            src="/assets/images/objects/ethereum-01.png"
+            src="/assets/images/objects/ethereum-01.webp"
             alt="Object"
             style={{ top: "-25%", right: "25%" }}
             data-anime="opacity:[0, 1]; scale:[0, 1]; onview: -250; delay: 200;"

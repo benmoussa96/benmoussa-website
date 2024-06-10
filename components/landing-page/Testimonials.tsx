@@ -26,7 +26,7 @@ const Testimonials = () => {
             className="uk-position-top-left uk-text-secondary uni-animation-bounce"
             width="16"
             height="16"
-            src="/assets/images/objects/circle-01.png"
+            src="/assets/images/objects/circle-01.webp"
             alt="Object"
             style={{ top: "-16%", left: "8%" }}
           />
@@ -34,7 +34,7 @@ const Testimonials = () => {
             className="uk-position-bottom-right uk-text-primary uni-animation-bounce"
             width="24"
             height="24"
-            src="/assets/images/objects/circle-02.png"
+            src="/assets/images/objects/circle-02.webp"
             alt="Object"
             style={{ bottom: "16%", right: "-8%" }}
           />
@@ -42,7 +42,7 @@ const Testimonials = () => {
             className="uk-position-bottom-left uk-text-muted uni-animation-bounce"
             width="28"
             height="28"
-            src="/assets/images/objects/x.png"
+            src="/assets/images/objects/x.webp"
             alt="Object"
             style={{ bottom: "16%", left: "-8%" }}
           />

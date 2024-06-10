@@ -10,7 +10,7 @@ const Footer = () => {
           <Image
             className="uk-position-top-left uni-animation-bounce"
             width="32"
-            src="/assets/images/objects/ethereum-01.png"
+            src="/assets/images/objects/ethereum-01.webp"
             alt="object"
             height="107"
             style={{ top: "32%", left: "16%" }}
@@ -19,7 +19,7 @@ const Footer = () => {
             className="uk-position-top-right uni-animation-bounce"
             width="16"
             height="16"
-            src="/assets/images/objects/x.png"
+            src="/assets/images/objects/x.webp"
             alt="object"
             style={{ top: "8%", right: "16%" }}
           />
@@ -27,7 +27,7 @@ const Footer = () => {
             className="uk-position-bottom-right uni-animation-bounce"
             width="16"
             height="16"
-            src="/assets/images/objects/circle-01.png"
+            src="/assets/images/objects/circle-01.webp"
             alt="object"
             style={{ bottom: "24%", right: "40%" }}
           />
@@ -35,7 +35,7 @@ const Footer = () => {
             className="uk-position-bottom-left uni-animation-bounce"
             width="24"
             height="24"
-            src="/assets/images/objects/circle-03.png"
+            src="/assets/images/objects/circle-03.webp"
             alt="object"
             style={{ bottom: "-8%", left: "30%" }}
           />

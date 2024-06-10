@@ -1,35 +1,35 @@
 [
   {
     "id": "1",
-    "level": "★★★★★",
+    "level": "★★★★☆",
     "name": "Smart Contracts",
     "description": "I leverage my extensive understanding of Ethereum and EVM protocols to design, develop, and optimize decentralized applications (dApps) and smart contracts.",
     "skills": ["Solidity", "Testing", "Gas Optimization"]
   },
   {
     "id": "2",
-    "level": "★★★★★",
-    "name": "Front End",
-    "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly performant websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
-    "skills": ["Next JS (React)", "Redux", "UI/UX"]
-  },
-  {
-    "id": "3",
     "level": "★★★★☆",
     "name": "Back End",
     "description": "My mastery of server-side architecture patterns allows me to create robust, efficient, and scalable back-end systems and flawlessly integrate them with front-end systems.",
     "skills": ["TypeScript", "Node JS", "Docker"]
   },
   {
+    "id": "3",
+    "level": "★★★★★",
+    "name": "Front End",
+    "description": "By seamlessly blending aesthetics and functionality, I can craft stunning and highly performant websites, pixel-perfect layouts, and intuitive interfaces that leave a lasting impression on users.",
+    "skills": ["Next JS (React)", "Redux", "UI/UX"]
+  },
+  {
     "id": "4",
-    "level": "★★★★☆",
+    "level": "★★★☆☆",
     "name": "DeFi",
     "description": "In addition to my coding prowess, I keeps a vigilant eye on the ever-evolving landscape of DeFi by analyzing market dynamics, optimizing yield strategies and anticipating risks.",
     "skills": ["Yield Farming", "Lending", "Liquid Staking"]
   },
   {
     "id": "5",
-    "level": "★★★☆☆",
+    "level": "★★☆☆☆",
     "name": "Project Mgmt",
     "description": "Thanks to my strong technical background and results driven approach, I am excellent in planning and executing complex projects while proactively managing risks.",
     "skills": ["Organization", "Communication", "Planning & Exection"]
