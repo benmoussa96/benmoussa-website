@@ -18,7 +18,12 @@
     "paths": {
       "@/*": ["./*"],
       "react": ["./node_modules/@types/react"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
