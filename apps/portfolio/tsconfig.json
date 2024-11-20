@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "../portfolio",
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -16,9 +16,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["../portfolio/src/*"],
-      "@public/*": ["../portfolio/public/*"],
-      "@shared/*": ["../portfolio/src/app/shared*"],
+      "@/*": ["src/*"],
+      "@public/*": ["public/*"],
+      "@shared/*": ["src/app/shared*"],
       "@core/*": ["../../packages/core/src/*"]
     },
     "plugins": [
@@ -29,13 +29,13 @@
   },
   "extends": "typescript-config/nextjs.json",
   "include": [
-    "../portfolio/next-env.d.ts",
-    "../portfolio/additional.d.ts",
-    "../portfolio/**/*.ts",
-    "../portfolio/**/*.tsx",
-    "../portfolio/**/*.cjs",
-    "../portfolio/**/*.mjs",
-    "../portfolio/.next/types/**/*.ts"
+    "next-env.d.ts",
+    "additional.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs",
+    ".next/types/**/*.ts"
   ],
-  "exclude": ["../portfolio/node_modules"]
+  "exclude": ["node_modules"]
 }

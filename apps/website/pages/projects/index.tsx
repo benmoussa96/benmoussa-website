@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { work } from "@/constants";
 import Link from "next/link";
+import Image from "next/image";
 
 interface IProject {
   id: string;
@@ -50,9 +51,9 @@ const Projects = () => {
                   <div className="uk-width-8-12@m">
                     <div className="featured-image uk-card-media-left uk-panel uk-overflow-hidden uk-radius">
                       <canvas width="825" height="480"></canvas>
-                      <img
+                      <Image
                         src={imagesPath + featuredProject?.image2}
-                        alt={featuredProject?.name}
+                        alt={featuredProject?.name || ""}
                         className="uk-cover"
                         data-uk-cover
                         loading="lazy"
@@ -96,7 +97,7 @@ const Projects = () => {
                         <div className="uk-width-auto">
                           <div className="uk-panel uk-overflow-hidden uk-border-circle">
                             <canvas width="48" height="48"></canvas>
-                            <img
+                            <Image
                               src="../assets/images/artwork/IMG_3033.png"
                               alt="Ghaieth BEN MOUSSA"
                               className="uk-cover"
@@ -127,7 +128,7 @@ const Projects = () => {
                 <article className="post featured-post uk-card">
                   <div className="featured-image uk-panel uk-overflow-hidden uk-radius">
                     <canvas width="460" height="300"></canvas>
-                    <img
+                    <Image
                       src={imagesPath + project?.image1}
                       alt={project.name}
                       className="uk-cover"

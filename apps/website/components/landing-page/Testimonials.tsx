@@ -56,7 +56,7 @@ const Testimonials = () => {
                 <div className="uk-panel uk-card uk-card-small uk-padding-large-horizontal uk-radius-medium uk-radius-large@m uk-box-shadow-xsmall dark:uk-background-white-5">
                   <div className="uk-grid uk-grid-medium@m" data-uk-grid="">
                     <div className="uk-width-1-3 uk-width-1-4@m">
-                      <img src={imagesPath + testimonial.image} alt="Icon" />
+                      <Image src={imagesPath + testimonial.image} alt="Icon" />
                     </div>
                     <div className="uk-panel uk-width-expand">
                       <h3 className="uk-h5 uk-h4@m">{testimonial.name}</h3>

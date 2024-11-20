@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { work } from "@/constants";
+import Image from "next/image";
 
 const Work = () => {
   const imagesPath = "../assets/images/clients/";
@@ -40,7 +41,7 @@ const Work = () => {
                       <div className="uk-width-1-4">
                         <div className="uk-panel">
                           <canvas width="100" height="100"></canvas>
-                          <img
+                          <Image
                             src={imagesPath + project.icon}
                             alt="Artwork"
                             className="uk-radius-2xlarge uk-cover"
@@ -73,7 +74,7 @@ const Work = () => {
                         <div>
                           <div className="uk-panel uk-overflow-hidden uk-radius-small">
                             <canvas width="400" height="350"></canvas>
-                            <img
+                            <Image
                               src={imagesPath + project.image1}
                               alt="Artwork"
                               className="uk-cover"
@@ -91,7 +92,7 @@ const Work = () => {
                               <div>
                                 <div className="uk-panel uk-overflow-hidden uk-radius-small">
                                   <canvas width="150" height="120"></canvas>
-                                  <img
+                                  <Image
                                     src={imagesPath + project.image2}
                                     alt="Artwork"
                                     className="uk-cover"
@@ -106,7 +107,7 @@ const Work = () => {
                               <div>
                                 <div className="uk-panel uk-overflow-hidden uk-radius-small">
                                   <canvas width="150" height="120"></canvas>
-                                  <img
+                                  <Image
                                     src={imagesPath + project.image3}
                                     alt="Artwork"
                                     className="uk-cover"

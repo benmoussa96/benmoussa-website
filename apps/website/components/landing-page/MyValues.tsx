@@ -17,21 +17,21 @@ const MyValues = () => {
           className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m"
           data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;"
         >
-          <img
+          <Image
             className="uk-position-top-left uk-text-primary-40 uni-animation-bounce uk-visible@l"
             alt="object"
             width="16"
             src="../assets/images/objects/star-01.svg"
             style={{ top: "-16%", left: " 8%" }}
           />
-          <img
+          <Image
             className="uk-position-bottom-right uk-text-primary-40 uni-animation-bounce uk-visible@l"
             alt="object"
             width="24"
             src="../assets/images/objects/star-01.svg"
             style={{ bottom: "16%", right: "-8%" }}
           />
-          <img
+          <Image
             className="uk-position-bottom-left uk-text-primary-40 uni-animation-bounce uk-visible@l"
             alt="object"
             width="28"

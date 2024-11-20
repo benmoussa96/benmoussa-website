@@ -29,14 +29,14 @@ const Hero = () => {
         className="uk-position-top uk-position-z-index-negative uk-overflow-hidden uk-blend-overlay"
         data-uk-height-viewport=""
       >
-        <img
+        <Image
           className="uk-position-top-left uk-position-fixed uk-blur-large"
           style={{ left: "-4%", top: "-4%" }}
           width="500"
           src="../assets/images/gradient-circle.svg"
           alt="Circle"
         />
-        <img
+        <Image
           className="uk-position-bottom-right uk-position-fixed uk-blur-large"
           style={{ right: "-4%", bottom: "-4%" }}
           width="500"
@@ -139,7 +139,7 @@ const Hero = () => {
                   data-uk-svg=""
                   data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 480;"
                 />
-                <img
+                <Image
                   className="uk-position-right uk-opacity-10 uni-animation-bounce"
                   width="300"
                   src="../assets/images/blob-dashed.svg"
@@ -147,7 +147,7 @@ const Hero = () => {
                   style={{ top: "-10%", right: "36%" }}
                   data-uk-svg=""
                 />
-                <img
+                <Image
                   className="uk-position-right uk-opacity-30 uni-animation-bounce"
                   width="300"
                   src="../assets/images/blob-fill.svg"

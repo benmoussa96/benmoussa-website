@@ -21,7 +21,7 @@ const Clients = () => {
           >
             <div>
               <a href="https://www.kayros.games/" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   className="uk-width-xsmall"
                   src="../assets/images/clients/kayros-light.svg"
                   alt="Metamask"
@@ -31,7 +31,7 @@ const Clients = () => {
             </div>
             <div>
               <a href="https://darblockchain.io/" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   className="uk-width-xsmall"
                   src="../assets/images/clients/dar-blockchain-light.svg"
                   alt="Coinbase"
@@ -41,7 +41,7 @@ const Clients = () => {
             </div>
             <div>
               <a href="https://decentralizeimpact.com/" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   className="uk-width-xsmall"
                   src="../assets/images/clients/di-light.svg"
                   alt="BitGo"
@@ -50,7 +50,7 @@ const Clients = () => {
               </a>
             </div>
             {/* <div>
-              <img
+              <Image
                 className="uk-width-xsmall"
                 src="../assets/images/wallets/wallet-04.svg"
                 alt="Trust Wallet"
@@ -58,7 +58,7 @@ const Clients = () => {
               />
             </div>
             <div>
-              <img
+              <Image
                 className="uk-width-xsmall"
                 src="../assets/images/wallets/wallet-05.svg"
                 alt="Exodus"

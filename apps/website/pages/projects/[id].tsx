@@ -35,7 +35,7 @@ const Project = () => {
     const { id } = router.query;
     const selectedProject = work.find((project) => project.id === id);
     setProject(selectedProject);
-  }, []);
+  }, [router]);
 
   return (
     project && (
@@ -64,7 +64,7 @@ const Project = () => {
           <div className="entry-featured-image uk-panel uk-overflow-hidden uk-radius uk-margin uk-margin-xlarge@m">
             <canvas width="1200" height="600"></canvas>
             <div className="uk-cover uk-flex uk-flex-top" data-uk-cover>
-              <img src={imagesPath + project?.image2} alt={project?.name} loading="lazy" />
+              <Image src={imagesPath + project?.image2} alt={project?.name} loading="lazy" />
             </div>
           </div>
 
@@ -73,7 +73,7 @@ const Project = () => {
               <div dangerouslySetInnerHTML={{ __html: project?.section1 }}></div>
 
               <figure className="uk-margin-large-top@m">
-                <img
+                <Image
                   className="uk-radius"
                   src={imagesPath + project?.image3}
                   alt="Image caption"
@@ -88,7 +88,7 @@ const Project = () => {
               <div dangerouslySetInnerHTML={{ __html: project?.section2 }}></div>
 
               <figure className="uk-margin-large-top@m">
-                <img
+                <Image
                   className="uk-radius"
                   src={imagesPath + project?.image1}
                   alt="Image caption"
@@ -344,7 +344,7 @@ export default Project;
 //           <div className="entry-featured-image uk-panel uk-overflow-hidden uk-radius uk-margin uk-margin-xlarge@m">
 //             <canvas width="1200" height="600"></canvas>
 //             <div className="uk-cover uk-flex uk-flex-top" data-uk-cover>
-//               <img src={imagesPath + project?.image2} alt={project?.name} loading="lazy" />
+//               <Image src={imagesPath + project?.image2} alt={project?.name} loading="lazy" />
 //             </div>
 //           </div>
 
@@ -377,7 +377,7 @@ export default Project;
 //               </p>
 
 //               <figure className="uk-margin-large-top@m">
-//                 <img
+//                 <Image
 //                   className="uk-radius"
 //                   src={imagesPath + project?.image3}
 //                   alt="Image caption"
@@ -401,7 +401,7 @@ export default Project;
 //                 Sapiente repellat dicta ipsam quas corporis ex illo repellendus provident.
 //               </p>
 //               <figure className="uk-margin-large-top@m">
-//                 <img
+//                 <Image
 //                   className="uk-radius"
 //                   src={imagesPath + project?.image1}
 //                   alt="Image caption"

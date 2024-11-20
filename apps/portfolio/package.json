@@ -1,6 +1,6 @@
 {
-  "name": "demo",
-  "homepage": "https://demo.thechaingenius.com",
+  "name": "portfolio",
+  "homepage": "https://portfolio.thechaingenius.com",
   "version": "0.0.1",
   "private": true,
   "scripts": {
