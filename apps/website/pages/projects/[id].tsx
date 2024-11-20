@@ -27,7 +27,6 @@ interface IProject {
 
 const Project = () => {
   const router = useRouter();
-
   const imagesPath = "../assets/images/clients/";
   const [project, setProject] = useState<IProject | undefined>(undefined);
 
