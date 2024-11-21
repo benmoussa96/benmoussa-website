@@ -1,7 +1,6 @@
 import { Badge, ActionIcon } from "rizzui";
 import MessagesDropdown from "@/layouts/messages-dropdown";
 import ProfileMenu from "@/layouts/profile-menu";
-import SettingsButton from "@/layouts/settings-button";
 import RingBellSolidIcon from "@core/components/icons/ring-bell-solid";
 import ChatSolidIcon from "@core/components/icons/chat-solid";
 import NotificationDropdown from "./notification-dropdown";
@@ -12,7 +11,7 @@ export default function HeaderMenuRight() {
     <div className="ms-auto flex shrink-0 items-center gap-2 xs:gap-3 xl:gap-4">
       <LanguageSwitcher />
 
-      <div className="grid grid-cols-4 items-center gap-2 text-gray-700 xs:gap-3 xl:gap-4">
+      <div className="grid grid-cols-3 items-center gap-2 text-gray-700 xs:gap-3 xl:gap-4">
         <NotificationDropdown>
           <ActionIcon
             aria-label="Notification"
@@ -44,7 +43,6 @@ export default function HeaderMenuRight() {
           </ActionIcon>
         </MessagesDropdown>
 
-        <SettingsButton />
         <ProfileMenu />
       </div>
     </div>
