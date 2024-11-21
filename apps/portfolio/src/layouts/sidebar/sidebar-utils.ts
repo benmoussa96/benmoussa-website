@@ -1,26 +1,24 @@
 "use client";
 
 import { atom, useAtom } from "jotai";
-import { MenuItemsType } from "@/layouts/beryllium/beryllium-fixed-menu-items";
+import { MenuItemsType } from "@/layouts/sidebar/sidebar-fixed-menu-items";
 
-const LOCAL_STORAGE_KEY = "iso-beryllium-sidebar-left-expanded";
+const LOCAL_STORAGE_KEY = "iso-sidebar-left-expanded";
 
-const isomorphicBerylliumSidebarLeftExpandedAtom = atom(
+const SidebarLeftExpandedAtom = atom(
   typeof window !== "undefined" ? localStorage.getItem(LOCAL_STORAGE_KEY) : true
 );
 
-const isomorphicBerylliumSidebarLeftExpandedAtomWithPersistence = atom(
-  (get) => get(isomorphicBerylliumSidebarLeftExpandedAtom),
+const SidebarLeftExpandedAtomWithPersistence = atom(
+  (get) => get(SidebarLeftExpandedAtom),
   (get, set, newStorage: any) => {
-    set(isomorphicBerylliumSidebarLeftExpandedAtom, newStorage);
+    set(SidebarLeftExpandedAtom, newStorage);
     localStorage.setItem(LOCAL_STORAGE_KEY, newStorage);
   }
 );
 
-export function useBerylliumSidebars() {
-  const [expandedLeft, setExpandedLeft] = useAtom(
-    isomorphicBerylliumSidebarLeftExpandedAtomWithPersistence
-  );
+export function useSidebar() {
+  const [expandedLeft, setExpandedLeft] = useAtom(SidebarLeftExpandedAtomWithPersistence);
 
   return {
     expandedLeft: !!(expandedLeft === null ? true : JSON.parse(expandedLeft as string)),

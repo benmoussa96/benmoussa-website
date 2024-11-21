@@ -10,7 +10,7 @@ import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { dir } from "@/i18n/direction";
-import BerylLiumLayout from "@/layouts/beryllium/beryllium-layout";
+import SidebarLayout from "@/layouts/sidebar/sidebar-layout";
 
 const NextProgress = dynamic(() => import("@core/components/next-progress"), {
   ssr: false,
@@ -40,7 +40,7 @@ export default async function RootLayout({
           <ThemeProvider>
             <NextProgress />
             <JotaiProvider>
-              <BerylLiumLayout>{children}</BerylLiumLayout>
+              <SidebarLayout>{children}</SidebarLayout>
               <Toaster />
               <GlobalDrawer />
               <GlobalModal />

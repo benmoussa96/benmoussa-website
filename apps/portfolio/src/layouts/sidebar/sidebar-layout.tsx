@@ -1,17 +1,17 @@
 "use client";
 
 import cn from "@core/utils/class-names";
-import Header from "@/layouts/beryllium/beryllium-header";
-import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
-import SidebarExpandable from "@/layouts/beryllium/beryllium-sidebar-expanded";
-import BerylliumLeftSidebarFixed from "@/layouts/beryllium/beryllium-left-sidebar-fixed";
+import Header from "@/layouts/sidebar/sidebar-header";
+import { useSidebar } from "@/layouts/sidebar/sidebar-utils";
+import SidebarExpandable from "@/layouts/sidebar/sidebar-expanded";
+import LeftSidebarFixed from "@/layouts/sidebar/left-sidebar-fixed";
 
-export default function BerylliumLayout({ children }: { children: React.ReactNode }) {
-  const { expandedLeft } = useBerylliumSidebars();
+export default function SidebarLayout({ children }: { children: React.ReactNode }) {
+  const { expandedLeft } = useSidebar();
 
   return (
     <main className={cn("flex min-h-screen flex-grow")}>
-      <BerylliumLeftSidebarFixed />
+      <LeftSidebarFixed />
       <SidebarExpandable />
       <div className="flex w-full flex-col ">
         <Header className="xl:ms-[88px]" />

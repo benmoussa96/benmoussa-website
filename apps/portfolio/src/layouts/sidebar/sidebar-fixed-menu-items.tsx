@@ -1,17 +1,6 @@
 import { routes } from "@/config/routes";
 import { IconType } from "react-icons/lib";
-import {
-  PiBellSimpleRinging,
-  PiChartLineUp,
-  PiEnvelopeSimpleOpen,
-  PiFolders,
-  PiHouse,
-  PiNotePencil,
-  PiPackage,
-  PiSquaresFour,
-  PiUser,
-  PiUserGear,
-} from "react-icons/pi";
+import { PiFolders, PiHouse } from "react-icons/pi";
 import { atom } from "jotai";
 
 export interface SubMenuItemType {
@@ -38,7 +27,7 @@ export interface MenuItemsType {
   menuItems: ItemType[];
 }
 
-export const berylliumMenuItems: MenuItemsType[] = [
+export const menuItems: MenuItemsType[] = [
   {
     id: "1",
     name: "sidebar-menu-home",
@@ -47,10 +36,10 @@ export const berylliumMenuItems: MenuItemsType[] = [
     menuItems: [
       {
         name: "sidebar-menu-file-manager",
-        href: "/",
+        href: routes.home,
         icon: PiFolders,
       },
     ],
   },
 ];
-export const berylliumMenuItemAtom = atom(berylliumMenuItems[0]);
+export const menuItemAtom = atom(menuItems[0]);

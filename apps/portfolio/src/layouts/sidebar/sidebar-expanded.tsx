@@ -2,9 +2,9 @@
 
 import { Collapse } from "rizzui";
 import cn from "@core/utils/class-names";
-import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
+import { useSidebar } from "@/layouts/sidebar/sidebar-utils";
 import { useAtomValue } from "jotai";
-import { ItemType, berylliumMenuItemAtom } from "@/layouts/beryllium/beryllium-fixed-menu-items";
+import { ItemType, menuItemAtom } from "@/layouts/sidebar/sidebar-fixed-menu-items";
 import { Fragment } from "react";
 import { Link } from "@/i18n/routing";
 import { usePathname } from "next/navigation";
@@ -120,10 +120,10 @@ function CollapsibleMenuItem({ item }: { item: ItemType }) {
   );
 }
 
-export default function BerylliumLeftSidebarExpandable() {
+export default function LeftSidebarExpandable() {
   const t = useTranslations("layout");
-  const { expandedLeft } = useBerylliumSidebars();
-  const selectedMenu = useAtomValue(berylliumMenuItemAtom);
+  const { expandedLeft } = useSidebar();
+  const selectedMenu = useAtomValue(menuItemAtom);
 
   return (
     <div

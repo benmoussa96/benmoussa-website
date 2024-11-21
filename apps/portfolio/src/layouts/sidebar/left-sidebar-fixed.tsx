@@ -4,15 +4,11 @@ import { ActionIcon } from "rizzui";
 import cn from "@core/utils/class-names";
 import { PiTextIndent } from "react-icons/pi";
 import {
-  useBerylliumSidebars,
+  useSidebar,
   getActiveMainMenuIndex,
   removeFirstLetters,
-} from "@/layouts/beryllium/beryllium-utils";
-import {
-  berylliumMenuItems,
-  MenuItemsType,
-  berylliumMenuItemAtom,
-} from "@/layouts/beryllium/beryllium-fixed-menu-items";
+} from "@/layouts/sidebar/sidebar-utils";
+import { menuItems, MenuItemsType, menuItemAtom } from "@/layouts/sidebar/sidebar-fixed-menu-items";
 import { useAtom, useSetAtom } from "jotai";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
@@ -20,8 +16,8 @@ import SimpleBar from "@core/ui/simplebar";
 import { useTranslations } from "next-intl";
 
 function MenuItem({ menu }: { menu: MenuItemsType }) {
-  const { expandedLeft, setExpandedLeft } = useBerylliumSidebars();
-  const [menuItems, setMenuItems] = useAtom(berylliumMenuItemAtom);
+  const { expandedLeft, setExpandedLeft } = useSidebar();
+  const [menuItems, setMenuItems] = useAtom(menuItemAtom);
   const t = useTranslations("layout");
   const Icon = menu.icon;
 
@@ -57,11 +53,8 @@ function MenuItems() {
     <menu className="flex w-full justify-center">
       <SimpleBar className="h-[calc(100vh_-_105px)] w-full pb-5">
         <ul className="flex flex-col gap-6">
-          {berylliumMenuItems.map((menu) => (
-            <MenuItem
-              key={menu.id}
-              menu={menu}
-            />
+          {menuItems.map((menu) => (
+            <MenuItem key={menu.id} menu={menu} />
           ))}
         </ul>
       </SimpleBar>
@@ -69,17 +62,14 @@ function MenuItems() {
   );
 }
 
-export default function BerylliumLeftSidebarFixed({ lang }: { lang?: string }) {
+export default function LeftSidebarFixed({ lang }: { lang?: string }) {
   const pathname = usePathname();
-  const setMenuItems = useSetAtom(berylliumMenuItemAtom);
-  const { expandedLeft, setExpandedLeft } = useBerylliumSidebars();
+  const setMenuItems = useSetAtom(menuItemAtom);
+  const { expandedLeft, setExpandedLeft } = useSidebar();
 
   useEffect(() => {
-    const activeMenuIndex = getActiveMainMenuIndex(
-      removeFirstLetters(3, pathname),
-      berylliumMenuItems
-    );
-    setMenuItems(berylliumMenuItems[activeMenuIndex]);
+    const activeMenuIndex = getActiveMainMenuIndex(removeFirstLetters(3, pathname), menuItems);
+    setMenuItems(menuItems[activeMenuIndex]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 

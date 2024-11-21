@@ -4,7 +4,7 @@ import { Link } from "@/i18n/routing";
 import { usePathname } from "next/navigation";
 import cn from "@core/utils/class-names";
 import SimpleBar from "@core/ui/simplebar";
-import { berylliumSidebarMenuItems } from "@/layouts/beryllium/beryllium-sidebar-menu-items";
+import { sidebarMenuItems } from "@/layouts/sidebar/sidebar-menu-items";
 import Logo from "@core/components/logo";
 import { useTranslations } from "next-intl";
 
@@ -20,18 +20,14 @@ export default function Sidebar({ className }: { className?: string }) {
       )}
     >
       <div className="sticky top-0 z-40 bg-gray-0/10 px-6 pb-5 pt-5 2xl:px-8 2xl:pt-6 dark:bg-gray-100/5">
-        <Link
-          href={"/"}
-          aria-label="Site Logo"
-          className="text-gray-800 hover:text-gray-900"
-        >
+        <Link href={"/"} aria-label="Site Logo" className="text-gray-800 hover:text-gray-900">
           <Logo className="max-w-[155px]" />
         </Link>
       </div>
 
       <SimpleBar className="h-[calc(100%-80px)]">
         <div className="mt-4 pb-3 3xl:mt-6">
-          {berylliumSidebarMenuItems.map((item, index) => {
+          {sidebarMenuItems.map((item, index) => {
             const isActive = pathname === (item?.href as string);
             return (
               <Link

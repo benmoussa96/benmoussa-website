@@ -5,7 +5,7 @@ import HamburgerButton from "@/layouts/hamburger-button";
 import Logo from "@core/components/logo";
 import { PiMagnifyingGlass } from "react-icons/pi";
 import cn from "@core/utils/class-names";
-import Sidebar from "@/layouts/beryllium/beryllium-sidebar-drawer";
+import Sidebar from "@/layouts/sidebar/sidebar-drawer";
 import HeaderMenuRight from "@/layouts/header-menu-right";
 import StickyHeader from "@/layouts/sticky-header";
 
